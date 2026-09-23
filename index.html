@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sürü Haritası — who AI recommends this week</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #666666;
+    --bar: #3b6ea5;
+    --border: #e5e5e5;
+    --card-bg: #fafafa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --fg: #f0f0f0;
+      --muted: #a0a0a0;
+      --bar: #6ea3d8;
+      --border: #2a2a2a;
+      --card-bg: #1a1a1a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0 16px 48px;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header { padding: 32px 0 16px; }
+  h1 { font-size: 1.6rem; margin: 0 0 6px; }
+  .date { color: var(--muted); font-size: 0.95rem; }
+  .category {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    background: var(--card-bg);
+  }
+  .category h2 { margin: 0 0 4px; font-size: 1.2rem; }
+  .category .n { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
+  .bar-row { display: flex; align-items: center; margin: 6px 0; gap: 8px; }
+  .bar-label { width: 130px; flex-shrink: 0; font-size: 0.85rem; text-align: right; }
+  .bar-track { flex: 1; background: var(--border); border-radius: 4px; height: 18px; overflow: hidden; }
+  .bar-fill { background: var(--bar); height: 100%; border-radius: 4px; }
+  .bar-pct { width: 42px; flex-shrink: 0; font-size: 0.85rem; color: var(--muted); }
+  .cols { display: flex; gap: 24px; margin-top: 16px; flex-wrap: wrap; }
+  .col { flex: 1; min-width: 200px; }
+  .col h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); margin: 0 0 8px; }
+  .col ol, .col ul { margin: 0; padding-left: 18px; font-size: 0.9rem; }
+  .col li { margin-bottom: 4px; }
+  .lead { font-size: 1.05rem; margin: 4px 0 0; max-width: 640px; }
+  .weeks { margin-top: 32px; }
+  .weeks h2 { font-size: 1.1rem; }
+  .weeks ul { padding-left: 18px; }
+  .method { margin-top: 32px; font-size: 0.9rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 20px; }
+  footer { margin-top: 24px; font-size: 0.85rem; color: var(--muted); }
+  a { color: var(--bar); }
+  #loading { color: var(--muted); padding: 40px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Who does AI send US buyers to this week?</h1>
+    <p class="lead">Same pattern across all four categories: AI names one single brand in more than two-thirds of the answers — and that brand is usually not the best-seller, it's the reviewers' favorite.</p>
+    <div class="date" id="date-line">Loading…</div>
+  </header>
+
+  <div id="loading">Loading data…</div>
+  <div id="categories"></div>
+
+  <div class="weeks" id="weeks-section" style="display:none">
+    <h2>Previous weeks</h2>
+    <ul id="weeks-list"></ul>
+  </div>
+
+  <div class="method">
+    <strong>Method:</strong> 100 questions, 10 buyer profiles, ChatGPT and Gemini, web search on, same questions every week.
+  </div>
+
+  <footer>
+    Contact: <a href="mailto:contact@celikkanatai.com">contact@celikkanatai.com</a>
+  </footer>
+</div>
+
+<script>
+async function main() {
+  let data;
+  try {
+    const res = await fetch('data.json');
+    data = await res.json();
+  } catch (e) {
+    document.getElementById('loading').textContent = 'Could not load data.json (are you opening this over http(s), not file://?).';
+    return;
+  }
+  document.getElementById('loading').style.display = 'none';
+
+  const weeks = data.haftalar || [];
+  if (weeks.length === 0) {
+    document.getElementById('categories').textContent = 'No data yet.';
+    return;
+  }
+
+  const latest = weeks[0];
+  document.getElementById('date-line').textContent = `Week ${latest.hafta}`;
+
+  const catsEl = document.getElementById('categories');
+  for (const [catName, catData] of Object.entries(latest.kategoriler)) {
+    catsEl.appendChild(renderCategory(catName, catData));
+  }
+
+  if (weeks.length > 1) {
+    document.getElementById('weeks-section').style.display = '';
+    const ul = document.getElementById('weeks-list');
+    for (const w of weeks.slice(1)) {
+      const li = document.createElement('li');
+      li.textContent = `Week ${w.hafta} — ${Object.keys(w.kategoriler).join(', ')}`;
+      ul.appendChild(li);
+    }
+  }
+}
+
+function renderCategory(name, d) {
+  const div = document.createElement('div');
+  div.className = 'category';
+
+  const h2 = document.createElement('h2');
+  h2.textContent = name;
+  div.appendChild(h2);
+
+  const n = document.createElement('div');
+  n.className = 'n';
+  n.textContent = `${d.n} answers this week`;
+  div.appendChild(n);
+
+  for (const [brand, pct] of (d.top3_brands || [])) {
+    const row = document.createElement('div');
+    row.className = 'bar-row';
+    row.innerHTML = `
+      <div class="bar-label">${escapeHtml(brand)}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${Math.min(pct,100)}%"></div></div>
+      <div class="bar-pct">${pct}%</div>
+    `;
+    div.appendChild(row);
+  }
+
+  const cols = document.createElement('div');
+  cols.className = 'cols';
+
+  const modelsCol = document.createElement('div');
+  modelsCol.className = 'col';
+  modelsCol.innerHTML = '<h3>Top 3 models</h3><ol>' +
+    (d.top3_models || []).map(([m, p]) => `<li>${escapeHtml(m)} (${p}%)</li>`).join('') + '</ol>';
+  cols.appendChild(modelsCol);
+
+  const srcCol = document.createElement('div');
+  srcCol.className = 'col';
+  srcCol.innerHTML = '<h3>Top 3 sources</h3><ul>' +
+    (d.top3_sources || []).map(s => `<li>${escapeHtml(s)}</li>`).join('') + '</ul>';
+  cols.appendChild(srcCol);
+
+  div.appendChild(cols);
+  return div;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+main();
+</script>
+</body>
+</html>

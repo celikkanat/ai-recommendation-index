@@ -1,0 +1,185 @@
+{
+ "haftalar": [
+  {
+   "hafta": "01",
+   "kategoriler": {
+    "Blender": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Vitamix 5200",
+       26
+      ],
+      [
+       "Ninja Professional Plus BN701",
+       20
+      ],
+      [
+       "Vitamix Explorian E310",
+       16
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Vitamix",
+       64
+      ],
+      [
+       "Ninja",
+       56
+      ],
+      [
+       "NutriBullet",
+       30
+      ],
+      [
+       "Hamilton Beach",
+       26
+      ],
+      [
+       "Oster",
+       12
+      ]
+     ],
+     "top3_sources": [
+      "vitamix.com",
+      "ninjakitchen.com",
+      "nutribullet.com"
+     ]
+    },
+    "Air fryer": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Cosori TurboBlaze 6-Quart",
+       21
+      ],
+      [
+       "Ninja AF101 4-Quart",
+       10
+      ],
+      [
+       "Cosori TurboBlaze 6.0-Quart",
+       9
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Ninja",
+       68
+      ],
+      [
+       "Instant",
+       64
+      ],
+      [
+       "Cosori",
+       63
+      ],
+      [
+       "Dash",
+       19
+      ],
+      [
+       "Chefman",
+       10
+      ]
+     ],
+     "top3_sources": [
+      "instantpot.com",
+      "cosori.com",
+      "rtings.com"
+     ]
+    },
+    "Rice cooker": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Zojirushi NS-ZCC10",
+       24
+      ],
+      [
+       "Aroma ARC-914SBD",
+       16
+      ],
+      [
+       "Toshiba TRCS01",
+       14
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Zojirushi",
+       80
+      ],
+      [
+       "Aroma",
+       44
+      ],
+      [
+       "Cuckoo",
+       30
+      ],
+      [
+       "Toshiba",
+       20
+      ],
+      [
+       "Tiger",
+       20
+      ]
+     ],
+     "top3_sources": [
+      "zojirushi.com",
+      "cuckooamerica.com",
+      "tiger-corporation.com"
+     ]
+    },
+    "Phone": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Samsung Galaxy S26 Ultra",
+       31
+      ],
+      [
+       "Apple iPhone 18 Pro Max",
+       14
+      ],
+      [
+       "Apple iPhone 17 Pro Max",
+       9
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Samsung",
+       75
+      ],
+      [
+       "Apple",
+       70
+      ],
+      [
+       "Google",
+       41
+      ],
+      [
+       "OnePlus",
+       15
+      ],
+      [
+       "Motorola",
+       14
+      ]
+     ],
+     "top3_sources": [
+      "samsung.com",
+      "apple.com",
+      "store.google.com"
+     ]
+    }
+   }
+  }
+ ]
+}
