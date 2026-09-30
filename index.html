@@ -50,6 +50,10 @@
   .bar-track { flex: 1; background: var(--border); border-radius: 4px; height: 18px; overflow: hidden; }
   .bar-fill { background: var(--bar); height: 100%; border-radius: 4px; }
   .bar-pct { width: 42px; flex-shrink: 0; font-size: 0.85rem; color: var(--muted); }
+  .bar-delta { width: 44px; flex-shrink: 0; font-size: 0.8rem; color: var(--muted); }
+  .changes { margin-top: 16px; border-top: 1px solid var(--border); padding-top: 12px; }
+  .changes h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); margin: 0 0 8px; }
+  .changes ul { margin: 0; padding-left: 18px; font-size: 0.9rem; }
   .cols { display: flex; gap: 24px; margin-top: 16px; flex-wrap: wrap; }
   .col { flex: 1; min-width: 200px; }
   .col h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); margin: 0 0 8px; }
@@ -69,7 +73,7 @@
 <div class="wrap">
   <header>
     <h1>Who does AI send US buyers to this week?</h1>
-    <p class="lead">Same pattern across all four categories: AI names one single brand in more than two-thirds of the answers — and that brand is usually not the best-seller, it's the reviewers' favorite.</p>
+    <p class="lead">Same pattern across all four categories: AI names one single brand in roughly two-thirds or more of the answers — and that brand is usually not the best-seller, it's the reviewers' favorite.</p>
     <div class="date" id="date-line">Loading…</div>
   </header>
 
@@ -140,13 +144,15 @@ function renderCategory(name, d) {
   n.textContent = `${d.n} answers this week`;
   div.appendChild(n);
 
-  for (const [brand, pct] of (d.top3_brands || [])) {
+  for (const [brand, pct, delta] of (d.top3_brands || [])) {
     const row = document.createElement('div');
     row.className = 'bar-row';
+    const deltaTxt = (delta === undefined) ? '' : (delta > 0 ? `▲${delta}` : delta < 0 ? `▼${-delta}` : '–');
     row.innerHTML = `
       <div class="bar-label">${escapeHtml(brand)}</div>
       <div class="bar-track"><div class="bar-fill" style="width:${Math.min(pct,100)}%"></div></div>
       <div class="bar-pct">${pct}%</div>
+      <div class="bar-delta" title="change vs last week, percentage points">${deltaTxt}</div>
     `;
     div.appendChild(row);
   }
@@ -167,6 +173,17 @@ function renderCategory(name, d) {
   cols.appendChild(srcCol);
 
   div.appendChild(cols);
+
+  if (d.changes !== undefined) {
+    const ch = document.createElement('div');
+    ch.className = 'changes';
+    const items = d.stable
+      ? ['No change beyond normal week-to-week noise.']
+      : d.changes;
+    ch.innerHTML = '<h3>What changed since last week</h3><ul>' +
+      items.map(t => `<li>${escapeHtml(t)}</li>`).join('') + '</ul>';
+    div.appendChild(ch);
+  }
   return div;
 }
 

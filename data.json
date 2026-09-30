@@ -22,30 +22,37 @@
      "top3_brands": [
       [
        "Vitamix",
-       60
+       60,
+       -4
       ],
       [
        "Ninja",
-       52
+       52,
+       -4
       ],
       [
        "NutriBullet",
-       26
+       26,
+       -4
       ],
       [
        "Hamilton Beach",
-       22
+       22,
+       -4
       ],
       [
        "Oster",
-       14
+       14,
+       2
       ]
      ],
      "top3_sources": [
       "vitamix.com",
       "ninjakitchen.com",
       "rtings.com"
-     ]
+     ],
+     "changes": [],
+     "stable": true
     },
     "Air fryer": {
      "n": 100,
@@ -66,30 +73,43 @@
      "top3_brands": [
       [
        "Ninja",
-       62
+       62,
+       -6
       ],
       [
        "Cosori",
-       61
+       61,
+       -2
       ],
       [
        "Instant",
-       56
+       56,
+       -8
       ],
       [
        "Dash",
-       17
+       17,
+       -2
       ],
       [
        "Chefman",
-       12
+       12,
+       2
       ]
      ],
      "top3_sources": [
       "cosori.com",
       "instantpot.com",
       "rtings.com"
-     ]
+     ],
+     "changes": [
+      "The #1 pick moved from Ninja to Cosori (Cosori first in 31 of 100 answers, Ninja in 26).",
+      "Black+Decker dropped out: 3 -> 0 of 100.",
+      "AI cited cosori.com in 31 answers (last week 21).",
+      "AI cited foodnetwork.com in 6 answers (last week 15).",
+      "AI's most-cited source changed from instantpot.com to cosori.com."
+     ],
+     "stable": false
     },
     "Rice cooker": {
      "n": 50,
@@ -110,30 +130,40 @@
      "top3_brands": [
       [
        "Zojirushi",
-       80
+       80,
+       0
       ],
       [
        "Aroma",
-       44
+       44,
+       0
       ],
       [
        "Cuckoo",
-       22
+       22,
+       -8
       ],
       [
        "Tiger",
-       14
+       14,
+       -6
       ],
       [
        "Dash",
-       10
+       10,
+       -2
       ]
      ],
      "top3_sources": [
       "zojirushi.com",
       "aromaco.com",
       "walmart.com"
-     ]
+     ],
+     "changes": [
+      "Toshiba down: 12 -> 5 of 50 answers.",
+      "AI cited aromaco.com in 8 answers (last week 3)."
+     ],
+     "stable": false
     },
     "Phone": {
      "n": 100,
@@ -154,30 +184,37 @@
      "top3_brands": [
       [
        "Apple",
-       73
+       73,
+       3
       ],
       [
        "Samsung",
-       70
+       70,
+       -5
       ],
       [
        "Google",
-       40
+       40,
+       -1
       ],
       [
        "OnePlus",
-       18
+       18,
+       3
       ],
       [
        "Motorola",
-       12
+       12,
+       -2
       ]
      ],
      "top3_sources": [
       "samsung.com",
       "apple.com",
       "google.com"
-     ]
+     ],
+     "changes": [],
+     "stable": true
     }
    }
   },
