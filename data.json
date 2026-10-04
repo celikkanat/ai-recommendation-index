@@ -1,6 +1,218 @@
 {
  "haftalar": [
   {
+   "hafta": "03",
+   "kategoriler": {
+    "Blender": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Vitamix 5200",
+       30
+      ],
+      [
+       "Vitamix Explorian E310",
+       24
+      ],
+      [
+       "Ninja Professional Plus BN701",
+       16
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Vitamix",
+       58,
+       -2
+      ],
+      [
+       "Ninja",
+       50,
+       -2
+      ],
+      [
+       "NutriBullet",
+       30,
+       4
+      ],
+      [
+       "Hamilton Beach",
+       22,
+       0
+      ],
+      [
+       "Oster",
+       16,
+       2
+      ]
+     ],
+     "top3_sources": [
+      "vitamix.com",
+      "ninjakitchen.com",
+      "hamiltonbeach.com"
+     ],
+     "changes": [],
+     "stable": true
+    },
+    "Air fryer": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Cosori TurboBlaze 6-Quart",
+       23
+      ],
+      [
+       "Instant Vortex Plus 6-Quart",
+       11
+      ],
+      [
+       "Breville Smart Oven Air Fryer Pro",
+       6
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Ninja",
+       68,
+       6
+      ],
+      [
+       "Cosori",
+       62,
+       1
+      ],
+      [
+       "Instant",
+       51,
+       -5
+      ],
+      [
+       "Dash",
+       15,
+       -2
+      ],
+      [
+       "Chefman",
+       12,
+       0
+      ]
+     ],
+     "top3_sources": [
+      "cosori.com",
+      "rtings.com",
+      "instantpot.com"
+     ],
+     "changes": [
+      "AI cited foodnetwork.com in 21 answers (last week 11).",
+      "AI cited instantpot.com in 15 answers (last week 25)."
+     ],
+     "stable": false
+    },
+    "Rice cooker": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Aroma ARC-914SBD",
+       14
+      ],
+      [
+       "Zojirushi NS-ZCC10",
+       14
+      ],
+      [
+       "Aroma ARC-743-1NG",
+       12
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Zojirushi",
+       82,
+       2
+      ],
+      [
+       "Aroma",
+       42,
+       -2
+      ],
+      [
+       "Cuckoo",
+       28,
+       6
+      ],
+      [
+       "Tiger",
+       24,
+       10
+      ],
+      [
+       "Dash",
+       10,
+       0
+      ]
+     ],
+     "top3_sources": [
+      "zojirushi.com",
+      "aromaco.com",
+      "cuckooamerica.com"
+     ],
+     "changes": [],
+     "stable": true
+    },
+    "Phone": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Samsung Galaxy S26 Ultra",
+       26
+      ],
+      [
+       "Apple iPhone 18 Pro Max",
+       18
+      ],
+      [
+       "Apple iPhone 18 Pro",
+       10
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Apple",
+       73,
+       0
+      ],
+      [
+       "Samsung",
+       73,
+       3
+      ],
+      [
+       "Google",
+       41,
+       1
+      ],
+      [
+       "OnePlus",
+       15,
+       -3
+      ],
+      [
+       "Motorola",
+       12,
+       0
+      ]
+     ],
+     "top3_sources": [
+      "samsung.com",
+      "apple.com",
+      "google.com"
+     ],
+     "changes": [],
+     "stable": true
+    }
+   }
+  },
+  {
    "hafta": "02",
    "kategoriler": {
     "Blender": {
@@ -103,10 +315,8 @@
       "rtings.com"
      ],
      "changes": [
-      "The #1 pick moved from Ninja to Cosori (Cosori first in 31 of 100 answers, Ninja in 26).",
-      "Black+Decker dropped out: 3 -> 0 of 100.",
       "AI cited cosori.com in 31 answers (last week 21).",
-      "AI cited foodnetwork.com in 6 answers (last week 15).",
+      "AI cited foodnetwork.com in 11 answers (last week 21).",
       "AI's most-cited source changed from instantpot.com to cosori.com."
      ],
      "stable": false
@@ -160,8 +370,7 @@
       "walmart.com"
      ],
      "changes": [
-      "Toshiba down: 12 -> 5 of 50 answers.",
-      "AI cited aromaco.com in 8 answers (last week 3)."
+      "Toshiba down: 12 -> 5 of 50 answers."
      ],
      "stable": false
     },
