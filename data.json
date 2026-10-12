@@ -1,6 +1,218 @@
 {
  "haftalar": [
   {
+   "hafta": "04",
+   "kategoriler": {
+    "Blender": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Ninja Professional Plus BN701",
+       26
+      ],
+      [
+       "Vitamix 5200",
+       26
+      ],
+      [
+       "Vitamix Explorian E310",
+       14
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Ninja",
+       58,
+       0
+      ],
+      [
+       "Vitamix",
+       58,
+       -6
+      ],
+      [
+       "NutriBullet",
+       32,
+       -6
+      ],
+      [
+       "Hamilton Beach",
+       26,
+       2
+      ],
+      [
+       "Blendtec",
+       20,
+       2
+      ]
+     ],
+     "top3_sources": [
+      "vitamix.com",
+      "rtings.com",
+      "nutribullet.com"
+     ],
+     "changes": [],
+     "stable": true
+    },
+    "Air fryer": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Cosori TurboBlaze 6-Quart",
+       27
+      ],
+      [
+       "Instant Vortex Plus 6-Quart ClearCook",
+       13
+      ],
+      [
+       "Ninja AF101 4-Quart",
+       10
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Cosori",
+       68,
+       3
+      ],
+      [
+       "Instant",
+       65,
+       6
+      ],
+      [
+       "Ninja",
+       64,
+       -8
+      ],
+      [
+       "Dash",
+       16,
+       1
+      ],
+      [
+       "Chefman",
+       11,
+       -1
+      ]
+     ],
+     "top3_sources": [
+      "instantpot.com",
+      "cosori.com",
+      "ninjakitchen.com"
+     ],
+     "changes": [
+      "AI cited instantpot.com in 29 answers (last week 15).",
+      "AI's most-cited source changed from cosori.com to instantpot.com."
+     ],
+     "stable": false
+    },
+    "Rice cooker": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Aroma ARC-914SBD",
+       16
+      ],
+      [
+       "Dash Mini",
+       12
+      ],
+      [
+       "Zojirushi NS-TSC10",
+       12
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Zojirushi",
+       80,
+       -2
+      ],
+      [
+       "Aroma",
+       46,
+       -2
+      ],
+      [
+       "Cuckoo",
+       38,
+       10
+      ],
+      [
+       "Tiger",
+       30,
+       0
+      ],
+      [
+       "Dash",
+       16,
+       6
+      ]
+     ],
+     "top3_sources": [
+      "zojirushi.com",
+      "cuckooamerica.com",
+      "shop.zojirushi.com"
+     ],
+     "changes": [],
+     "stable": true
+    },
+    "Phone": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Samsung Galaxy S26 Ultra",
+       26
+      ],
+      [
+       "Apple iPhone 18 Pro Max",
+       18
+      ],
+      [
+       "Apple iPhone 17",
+       10
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Samsung",
+       82,
+       0
+      ],
+      [
+       "Apple",
+       71,
+       -2
+      ],
+      [
+       "Google",
+       56,
+       1
+      ],
+      [
+       "OnePlus",
+       18,
+       3
+      ],
+      [
+       "Motorola",
+       11,
+       -2
+      ]
+     ],
+     "top3_sources": [
+      "samsung.com",
+      "apple.com",
+      "google.com"
+     ],
+     "changes": [],
+     "stable": true
+    }
+   }
+  },
+  {
    "hafta": "03",
    "kategoriler": {
     "Blender": {
@@ -22,28 +234,28 @@
      "top3_brands": [
       [
        "Vitamix",
-       58,
-       -2
-      ],
-      [
-       "Ninja",
-       50,
-       -2
-      ],
-      [
-       "NutriBullet",
-       30,
-       4
-      ],
-      [
-       "Hamilton Beach",
-       22,
+       64,
        0
       ],
       [
-       "Oster",
-       16,
+       "Ninja",
+       58,
+       0
+      ],
+      [
+       "NutriBullet",
+       38,
+       10
+      ],
+      [
+       "Hamilton Beach",
+       24,
        2
+      ],
+      [
+       "Blendtec",
+       18,
+       -2
       ]
      ],
      "top3_sources": [
@@ -73,23 +285,23 @@
      "top3_brands": [
       [
        "Ninja",
-       68,
-       6
+       72,
+       9
       ],
       [
        "Cosori",
-       62,
+       65,
        1
       ],
       [
        "Instant",
-       51,
-       -5
+       59,
+       -4
       ],
       [
        "Dash",
        15,
-       -2
+       -3
       ],
       [
        "Chefman",
@@ -132,21 +344,21 @@
       ],
       [
        "Aroma",
-       42,
+       48,
        -2
+      ],
+      [
+       "Tiger",
+       30,
+       8
       ],
       [
        "Cuckoo",
        28,
-       6
+       0
       ],
       [
-       "Tiger",
-       24,
-       10
-      ],
-      [
-       "Dash",
+       "Toshiba",
        10,
        0
       ]
@@ -177,29 +389,29 @@
      ],
      "top3_brands": [
       [
-       "Apple",
-       73,
-       0
+       "Samsung",
+       82,
+       2
       ],
       [
-       "Samsung",
+       "Apple",
        73,
-       3
+       -1
       ],
       [
        "Google",
-       41,
-       1
+       55,
+       2
       ],
       [
        "OnePlus",
        15,
-       -3
+       -4
       ],
       [
        "Motorola",
-       12,
-       0
+       13,
+       1
       ]
      ],
      "top3_sources": [
@@ -234,17 +446,17 @@
      "top3_brands": [
       [
        "Vitamix",
-       60,
-       -4
+       64,
+       0
       ],
       [
        "Ninja",
-       52,
-       -4
+       58,
+       -2
       ],
       [
        "NutriBullet",
-       26,
+       28,
        -4
       ],
       [
@@ -253,9 +465,9 @@
        -4
       ],
       [
-       "Oster",
-       14,
-       2
+       "Blendtec",
+       20,
+       4
       ]
      ],
      "top3_sources": [
@@ -284,24 +496,24 @@
      ],
      "top3_brands": [
       [
+       "Cosori",
+       64,
+       -1
+      ],
+      [
        "Ninja",
-       62,
+       63,
        -6
       ],
       [
-       "Cosori",
-       61,
-       -2
-      ],
-      [
        "Instant",
-       56,
-       -8
+       63,
+       -7
       ],
       [
        "Dash",
-       17,
-       -2
+       18,
+       -1
       ],
       [
        "Chefman",
@@ -345,23 +557,23 @@
       ],
       [
        "Aroma",
-       44,
-       0
+       50,
+       4
       ],
       [
        "Cuckoo",
-       22,
-       -8
-      ],
-      [
-       "Tiger",
-       14,
+       28,
        -6
       ],
       [
-       "Dash",
-       10,
+       "Tiger",
+       22,
        -2
+      ],
+      [
+       "Dash",
+       12,
+       0
       ]
      ],
      "top3_sources": [
@@ -392,23 +604,23 @@
      ],
      "top3_brands": [
       [
-       "Apple",
-       73,
-       3
+       "Samsung",
+       80,
+       -3
       ],
       [
-       "Samsung",
-       70,
-       -5
+       "Apple",
+       74,
+       2
       ],
       [
        "Google",
-       40,
-       -1
+       53,
+       3
       ],
       [
        "OnePlus",
-       18,
+       19,
        3
       ],
       [
@@ -453,19 +665,19 @@
       ],
       [
        "Ninja",
-       56
+       60
       ],
       [
        "NutriBullet",
-       30
+       32
       ],
       [
        "Hamilton Beach",
        26
       ],
       [
-       "Oster",
-       12
+       "Blendtec",
+       16
       ]
      ],
      "top3_sources": [
@@ -492,16 +704,16 @@
      ],
      "top3_brands": [
       [
-       "Ninja",
-       68
+       "Instant",
+       70
       ],
       [
-       "Instant",
-       64
+       "Ninja",
+       69
       ],
       [
        "Cosori",
-       63
+       65
       ],
       [
        "Dash",
@@ -541,19 +753,19 @@
       ],
       [
        "Aroma",
-       44
+       46
       ],
       [
        "Cuckoo",
-       30
+       34
       ],
       [
        "Toshiba",
-       20
+       24
       ],
       [
        "Tiger",
-       20
+       24
       ]
      ],
      "top3_sources": [
@@ -581,19 +793,19 @@
      "top3_brands": [
       [
        "Samsung",
-       75
+       83
       ],
       [
        "Apple",
-       70
+       72
       ],
       [
        "Google",
-       41
+       50
       ],
       [
        "OnePlus",
-       15
+       16
       ],
       [
        "Motorola",
