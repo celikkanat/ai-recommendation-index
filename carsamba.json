@@ -1,0 +1,561 @@
+{
+ "hafta": "01",
+ "kategoriler": [
+  {
+   "ad": "Travel bags",
+   "n": 50,
+   "per_situation": true,
+   "gemini_search": [
+    11,
+    25
+   ],
+   "below_threshold": true,
+   "brands": [
+    [
+     "Briggs & Riley",
+     38,
+     9,
+     10
+    ],
+    [
+     "Travelpro",
+     32,
+     8,
+     8
+    ],
+    [
+     "Osprey",
+     28,
+     6,
+     8
+    ],
+    [
+     "CabinZero",
+     14,
+     5,
+     2
+    ],
+    [
+     "American Tourister",
+     12,
+     2,
+     4
+    ]
+   ],
+   "situations": [
+    [
+     "Two weeks in Europe, carry-on only, wants a backpack",
+     10,
+     [
+      [
+       "Osprey",
+       10
+      ],
+      [
+       "Cotopaxi",
+       5
+      ],
+      [
+       "Aer",
+       4
+      ]
+     ]
+    ],
+    [
+     "Flies for work every week, carry-on suitcase",
+     10,
+     [
+      [
+       "Briggs & Riley",
+       9
+      ],
+      [
+       "Travelpro",
+       9
+      ],
+      [
+       "Monos",
+       2
+      ]
+     ]
+    ],
+    [
+     "Budget airlines, personal item under the seat",
+     10,
+     [
+      [
+       "CabinZero",
+       6
+      ],
+      [
+       "Coowoz",
+       4
+      ],
+      [
+       "Osprey",
+       4
+      ]
+     ]
+    ],
+    [
+     "$100 max, a few trips a year, carry-on",
+     10,
+     [
+      [
+       "American Tourister",
+       6
+      ],
+      [
+       "SwissGear",
+       5
+      ],
+      [
+       "Travelpro",
+       3
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, one carry-on for ten years",
+     10,
+     [
+      [
+       "Briggs & Riley",
+       10
+      ],
+      [
+       "Rimowa",
+       5
+      ],
+      [
+       "Travelpro",
+       2
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "briggs-riley.com",
+    "travelpro.com",
+    "osprey.com"
+   ]
+  },
+  {
+   "ad": "Hair tools",
+   "n": 50,
+   "per_situation": true,
+   "gemini_search": [
+    18,
+    25
+   ],
+   "below_threshold": false,
+   "brands": [
+    [
+     "T3",
+     42,
+     9,
+     12
+    ],
+    [
+     "Bio Ionic",
+     24,
+     3,
+     9
+    ],
+    [
+     "Dyson",
+     24,
+     5,
+     7
+    ],
+    [
+     "BaBylissPRO",
+     22,
+     5,
+     6
+    ],
+    [
+     "Hot Tools",
+     20,
+     6,
+     4
+    ]
+   ],
+   "situations": [
+    [
+     "Thick curly hair, hair dryer",
+     10,
+     [
+      [
+       "Dyson",
+       9
+      ],
+      [
+       "Shark",
+       8
+      ],
+      [
+       "PATTERN",
+       6
+      ]
+     ]
+    ],
+    [
+     "Fine damaged hair, flat iron",
+     10,
+     [
+      [
+       "T3",
+       9
+      ],
+      [
+       "Bio Ionic",
+       4
+      ],
+      [
+       "Conair",
+       2
+      ]
+     ]
+    ],
+    [
+     "$100 max, blow dryer brush",
+     10,
+     [
+      [
+       "Revlon",
+       10
+      ],
+      [
+       "Hot Tools",
+       7
+      ],
+      [
+       "L'ange",
+       5
+      ]
+     ]
+    ],
+    [
+     "Travels a lot, compact dual-voltage hair dryer",
+     10,
+     [
+      [
+       "BaBylissPRO",
+       9
+      ],
+      [
+       "T3",
+       5
+      ],
+      [
+       "GHD",
+       4
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, long hair, curling iron",
+     10,
+     [
+      [
+       "Bio Ionic",
+       8
+      ],
+      [
+       "T3",
+       7
+      ],
+      [
+       "GHD",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "t3micro.com",
+    "dyson.com",
+    "conair.com"
+   ]
+  },
+  {
+   "ad": "Pickleball paddles",
+   "n": 50,
+   "per_situation": false,
+   "gemini_search": [
+    22,
+    25
+   ],
+   "below_threshold": false,
+   "brands": [
+    [
+     "Vatic Pro",
+     48,
+     10,
+     14
+    ],
+    [
+     "Selkirk (incl. SLK, Selkirk LABS)",
+     44,
+     13,
+     9
+    ],
+    [
+     "JOOLA",
+     34,
+     10,
+     7
+    ],
+    [
+     "ProKennex",
+     18,
+     4,
+     5
+    ],
+    [
+     "Friday",
+     14,
+     2,
+     5
+    ]
+   ],
+   "situations": [
+    [
+     "Total beginner",
+     10,
+     [
+      [
+       "Selkirk",
+       9
+      ],
+      [
+       "Vatic Pro",
+       8
+      ],
+      [
+       "Friday",
+       3
+      ]
+     ]
+    ],
+    [
+     "Former tennis player, wants power and spin",
+     10,
+     [
+      [
+       "JOOLA",
+       7
+      ],
+      [
+       "11SIX24",
+       4
+      ],
+      [
+       "Selkirk",
+       4
+      ]
+     ]
+    ],
+    [
+     "Tennis elbow, easy on the arm",
+     10,
+     [
+      [
+       "ProKennex",
+       9
+      ],
+      [
+       "Vatic Pro",
+       6
+      ],
+      [
+       "Engage",
+       5
+      ]
+     ]
+    ],
+    [
+     "$100 max, plays twice a week",
+     10,
+     [
+      [
+       "Vatic Pro",
+       10
+      ],
+      [
+       "Friday",
+       4
+      ],
+      [
+       "Selkirk",
+       3
+      ]
+     ]
+    ],
+    [
+     "4.0 tournament player, budget no issue",
+     10,
+     [
+      [
+       "JOOLA",
+       8
+      ],
+      [
+       "Six Zero",
+       5
+      ],
+      [
+       "Honolulu",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "selkirk.com",
+    "joola.com",
+    "vaticpro.com"
+   ]
+  },
+  {
+   "ad": "Water filters",
+   "n": 50,
+   "per_situation": false,
+   "gemini_search": [
+    17,
+    25
+   ],
+   "below_threshold": false,
+   "brands": [
+    [
+     "AquaTru",
+     38,
+     7,
+     12
+    ],
+    [
+     "Waterdrop",
+     32,
+     1,
+     15
+    ],
+    [
+     "Brita",
+     28,
+     10,
+     4
+    ],
+    [
+     "Aquasana",
+     26,
+     9,
+     4
+    ],
+    [
+     "PUR",
+     26,
+     6,
+     7
+    ]
+   ],
+   "situations": [
+    [
+     "Renter, can't change plumbing",
+     10,
+     [
+      [
+       "AquaTru",
+       5
+      ],
+      [
+       "Clearly Filtered",
+       5
+      ],
+      [
+       "Brita",
+       4
+      ]
+     ]
+    ],
+    [
+     "Worried about PFAS and lead",
+     10,
+     [
+      [
+       "AquaTru",
+       4
+      ],
+      [
+       "Aquasana",
+       4
+      ],
+      [
+       "ZeroWater",
+       4
+      ]
+     ]
+    ],
+    [
+     "Family of five, countertop, no installation",
+     10,
+     [
+      [
+       "AquaTru",
+       10
+      ],
+      [
+       "Waterdrop",
+       5
+      ],
+      [
+       "Bluevua",
+       2
+      ]
+     ]
+    ],
+    [
+     "$50 max",
+     10,
+     [
+      [
+       "Brita",
+       8
+      ],
+      [
+       "PUR",
+       6
+      ],
+      [
+       "Waterdrop",
+       4
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, homeowner, under-sink",
+     10,
+     [
+      [
+       "Aquasana",
+       6
+      ],
+      [
+       "Waterdrop",
+       5
+      ],
+      [
+       "Kinetico",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "aquasana.com",
+    "brita.com",
+    "epa.gov"
+   ]
+  }
+ ]
+}

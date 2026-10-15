@@ -67,6 +67,14 @@
   footer { margin-top: 24px; font-size: 0.85rem; color: var(--muted); }
   a { color: var(--bar); }
   #loading { color: var(--muted); padding: 40px 0; }
+  .cohort { margin-top: 40px; border-top: 1px solid var(--border); padding-top: 24px; }
+  .cohort h2 { font-size: 1.3rem; margin: 0 0 6px; }
+  .cohort .lead { font-size: 0.95rem; }
+  .sit { margin: 0; padding-left: 18px; font-size: 0.9rem; }
+  .sit li { margin-bottom: 6px; }
+  .sit .who { color: var(--muted); }
+  .search-note { font-size: 0.85rem; color: var(--muted); margin-top: 12px; }
+  .search-note.warn { color: var(--fg); font-weight: 600; }
 </style>
 </head>
 <body>
@@ -82,6 +90,12 @@
   <div id="loading">Loading data…</div>
   <div id="categories"></div>
 
+  <section class="cohort" id="cohort" style="display:none">
+    <h2>New categories: travel bags, hair tools, pickleball paddles, water filters</h2>
+    <p class="lead">First week, measured October 14, 2026. 50 answers per category (25 ChatGPT, 25 Gemini), five buyer situations with 10 answers each. These questions all ask for specific models, so this group is measured on its own day and is not compared with the categories above.</p>
+    <div id="cohort-cats"></div>
+  </section>
+
   <div class="weeks" id="weeks-section" style="display:none">
     <h2>Previous weeks</h2>
     <ul id="weeks-list"></ul>
@@ -91,6 +105,8 @@
     <strong>Method:</strong> 100 questions, 10 buyer profiles, ChatGPT and Gemini, web search on, same questions every week.
     When the measurement is repeated on the same day, brand rates move by ±2 points on average; week-to-week changes are treated as meaningful only when they are above that noise.
     As of week 4 we count the first three distinct brands in each answer; all previous weeks were recomputed with the same rule. Earlier published figures differ, in a few cases by more than 10 points.
+    New categories (from October 14): 50 questions each, five buyer situations, every question asks for specific models. In a separate 50-answer rice-cooker same-day rerun using the Sunday format and the previous ChatGPT model, brand rates moved by up to 10 points. This is context only, not a repeatability estimate for the new categories; no trend is inferred from their first week. In travel bags and hair tools the product asked about changes with the buyer situation, so results there are shown per situation.
+    <br><strong>Models:</strong> We use the API model closest to each app's free default. ChatGPT side: weeks 1–4 gpt-5.6-luna; ChatGPT's free default moved to GPT-6 Luna on Oct 8, so week 4 (Oct 11) was still measured with the older model. From week 5 (Oct 18) the weekly series uses gpt-6-luna; in week 5 the ChatGPT questions will also be run once more on gpt-5.6-luna as a same-day bridge, to estimate how much the model change may move the numbers. That bridge run will be reported separately and not mixed into the series. The new categories use gpt-6-luna from their first week. Gemini side: gemini-3.6-flash throughout, no change.
   </div>
 
   <footer>
@@ -124,6 +140,11 @@ async function main() {
   for (const [catName, catData] of Object.entries(latest.kategoriler)) {
     catsEl.appendChild(renderCategory(catName, catData));
   }
+
+  try {
+    const cr = await fetch('carsamba.json');
+    if (cr.ok) renderCohort(await cr.json());
+  } catch (e) { /* cohort section stays hidden */ }
 
   if (weeks.length > 1) {
     document.getElementById('weeks-section').style.display = '';
@@ -190,6 +211,38 @@ function renderCategory(name, d) {
     div.appendChild(ch);
   }
   return div;
+}
+
+function renderCohort(c) {
+  const el = document.getElementById('cohort-cats');
+  for (const k of (c.kategoriler || [])) {
+    const div = document.createElement('div');
+    div.className = 'category';
+    let html = `<h2>${escapeHtml(k.ad)}</h2><div class="n">${k.n} answers, week 1</div>`;
+    if (!k.per_situation) {
+      for (const [brand, pct, cg, gm] of k.brands) {
+        html += `<div class="bar-row">
+          <div class="bar-label">${escapeHtml(brand)}</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${Math.min(pct,100)}%"></div></div>
+          <div class="bar-pct">${pct}%</div>
+          <div class="bar-delta" title="answers with the brand in the first three: ChatGPT / Gemini, out of 25 each">${cg} / ${gm}</div>
+        </div>`;
+      }
+      html += '<div class="search-note">Bars: share of the 50 answers with the brand among the first three brands recommended. Right column: ChatGPT / Gemini answers, out of 25 each.</div>';
+    }
+    html += '<div class="cols"><div class="col"><h3>By buyer situation (first three brands, out of 10 answers)</h3><ul class="sit">' +
+      k.situations.map(([who, n, top]) =>
+        `<li><span class="who">${escapeHtml(who)}:</span> ${top.map(([b, c]) => `${escapeHtml(b)} ${c}/${n}`).join(', ')}</li>`).join('') +
+      '</ul></div><div class="col"><h3>Top 3 sources</h3><ul>' +
+      (k.sources || []).map(s => `<li>${escapeHtml(s)}</li>`).join('') + '</ul></div></div>';
+    const [hit, gn] = k.gemini_search;
+    html += k.below_threshold
+      ? `<div class="search-note warn">Note: Gemini ran a recorded web search in only ${hit} of ${gn} answers in this category (below 50%).</div>`
+      : `<div class="search-note">Gemini ran a recorded web search in ${hit} of ${gn} answers.</div>`;
+    div.innerHTML = html;
+    el.appendChild(div);
+  }
+  document.getElementById('cohort').style.display = '';
 }
 
 function escapeHtml(s) {
