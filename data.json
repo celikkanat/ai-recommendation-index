@@ -1,6 +1,231 @@
 {
  "haftalar": [
   {
+   "hafta": "05",
+   "kategoriler": {
+    "Blender": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Vitamix 5200",
+       18
+      ],
+      [
+       "Ninja Fit QB3001SS",
+       12
+      ],
+      [
+       "Ninja Professional Plus Auto-iQ BN701",
+       12
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Vitamix",
+       64,
+       6
+      ],
+      [
+       "Ninja",
+       60,
+       2
+      ],
+      [
+       "NutriBullet",
+       36,
+       4
+      ],
+      [
+       "Hamilton Beach",
+       16,
+       -10
+      ],
+      [
+       "Blendtec",
+       12,
+       -8
+      ]
+     ],
+     "top3_sources": [
+      "vitamix.com",
+      "rtings.com",
+      "nutribullet.com"
+     ],
+     "changes": [],
+     "stable": true
+    },
+    "Air fryer": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Cosori TurboBlaze 6-Quart",
+       18
+      ],
+      [
+       "Ninja AF101",
+       16
+      ],
+      [
+       "Instant Vortex Plus 6-Quart ClearCook",
+       12
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Ninja",
+       59,
+       -5
+      ],
+      [
+       "Cosori",
+       58,
+       -10
+      ],
+      [
+       "Instant",
+       50,
+       -15
+      ],
+      [
+       "Dash",
+       14,
+       -2
+      ],
+      [
+       "Chefman",
+       14,
+       3
+      ]
+     ],
+     "top3_sources": [
+      "rtings.com",
+      "foodnetwork.com",
+      "Food Network"
+     ],
+     "changes": [
+      "Cosori down: 69 -> 59 of 100 answers.",
+      "Instant down: 70 -> 52 of 100 answers.",
+      "AI cited cosori.com in 9 answers (last week 29).",
+      "AI cited instantpot.com in 9 answers (last week 29).",
+      "AI cited ninjakitchen.com in 3 answers (last week 16).",
+      "AI cited rtings.com in 28 answers (last week 17).",
+      "AI's most-cited source changed from instantpot.com to rtings.com."
+     ],
+     "stable": false
+    },
+    "Rice cooker": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Aroma ARC-914SBD",
+       14
+      ],
+      [
+       "Dash Mini",
+       10
+      ],
+      [
+       "Zojirushi NS-LGC05",
+       10
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Zojirushi",
+       76,
+       -4
+      ],
+      [
+       "Aroma",
+       46,
+       0
+      ],
+      [
+       "Cuckoo",
+       20,
+       -18
+      ],
+      [
+       "Dash",
+       14,
+       -2
+      ],
+      [
+       "Tiger",
+       14,
+       -16
+      ]
+     ],
+     "top3_sources": [
+      "zojirushi.com",
+      "shop.zojirushi.com",
+      "store.zojirushi.com"
+     ],
+     "changes": [
+      "Cuckoo down: 22 -> 11 of 50 answers.",
+      "Tiger down: 15 -> 8 of 50 answers.",
+      "AI cited cuckooamerica.com in 0 answers (last week 9)."
+     ],
+     "stable": false
+    },
+    "Phone": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Samsung Galaxy S26 Ultra",
+       20
+      ],
+      [
+       "Apple iPhone 18 Pro Max",
+       17
+      ],
+      [
+       "Google Pixel 10a",
+       9
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Samsung",
+       75,
+       -7
+      ],
+      [
+       "Apple",
+       73,
+       2
+      ],
+      [
+       "Google",
+       52,
+       -4
+      ],
+      [
+       "OnePlus",
+       15,
+       -3
+      ],
+      [
+       "RedMagic",
+       10,
+       1
+      ]
+     ],
+     "top3_sources": [
+      "apple.com",
+      "samsung.com",
+      "store.google.com"
+     ],
+     "changes": [
+      "AI cited apple.com in 25 answers (last week 37).",
+      "AI cited google.com in 11 answers (last week 21).",
+      "AI cited samsung.com in 22 answers (last week 37)."
+     ],
+     "stable": false
+    }
+   }
+  },
+  {
    "hafta": "04",
    "kategoriler": {
     "Blender": {

@@ -85,7 +85,7 @@
     <div class="date" id="date-line">Loading…</div>
   </header>
 
-  <img src="charts/week-04-trend.png" alt="Four-week trend of the top three brands in each category" style="width:100%;height:auto;border:1px solid var(--border);border-radius:10px;background:#fff;margin-top:8px">
+  <img src="charts/week-05-trend.png" alt="Five-week trend of the top three brands in each category; a dashed line marks the ChatGPT model change before week 5" style="width:100%;height:auto;border:1px solid var(--border);border-radius:10px;background:#fff;margin-top:8px">
 
   <div id="loading">Loading data…</div>
   <div id="categories"></div>
@@ -106,7 +106,7 @@
     When the measurement is repeated on the same day, brand rates move by ±2 points on average; week-to-week changes are treated as meaningful only when they are above that noise.
     As of week 4 we count the first three distinct brands in each answer; all previous weeks were recomputed with the same rule. Earlier published figures differ, in a few cases by more than 10 points.
     New categories (from October 14): 50 questions each, five buyer situations, every question asks for specific models. In a separate 50-answer rice-cooker same-day rerun using the Sunday format and the previous ChatGPT model, brand rates moved by up to 10 points. This is context only, not a repeatability estimate for the new categories; no trend is inferred from their first week. In travel bags and hair tools the product asked about changes with the buyer situation, so results there are shown per situation.
-    <br><strong>Models:</strong> We use the API model closest to each app's free default. ChatGPT side: weeks 1–4 gpt-5.6-luna; ChatGPT's free default moved to GPT-6 Luna on Oct 8, so week 4 (Oct 11) was still measured with the older model. From week 5 (Oct 18) the weekly series uses gpt-6-luna; in week 5 the ChatGPT questions will also be run once more on gpt-5.6-luna as a same-day bridge, to estimate how much the model change may move the numbers. That bridge run will be reported separately and not mixed into the series. The new categories use gpt-6-luna from their first week. Gemini side: gemini-3.6-flash throughout, no change.
+    <br><strong>Models:</strong> We use the API model closest to each app's free default. ChatGPT side: weeks 1–4 gpt-5.6-luna; ChatGPT's free default moved to GPT-6 Luna on Oct 8, so week 4 (Oct 11) was still measured with the older model. From week 5 (Oct 18) the weekly series uses gpt-6-luna; the dashed line in the trend chart marks the switch. In week 5 we also ran the same ChatGPT questions on gpt-5.6-luna on the same day as a bridge; that run is not mixed into the series. On ChatGPT's answers alone, the largest bridge gaps (new minus old model) were: air fryer, Instant −28 and Cosori −16 points (50 answers per model); phone, Samsung −16 (50); rice cooker, Cuckoo −24 and Tiger −20 (25); blender, Blendtec −16 and Oster −16 (25). With 25 answers one answer is 4 points, so the rice cooker and blender gaps are rough. Week-5 changes for those brands cannot be read as pure week-to-week movement, because the model changed at the same boundary. The new categories use gpt-6-luna from their first week. Gemini side: gemini-3.6-flash throughout, no change.
   </div>
 
   <footer>
