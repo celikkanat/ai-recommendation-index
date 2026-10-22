@@ -92,8 +92,14 @@
 
   <section class="cohort" id="cohort" style="display:none">
     <h2>New categories: travel bags, hair tools, pickleball paddles, water filters</h2>
-    <p class="lead">First week, measured October 14, 2026. 50 answers per category (25 ChatGPT, 25 Gemini), five buyer situations with 10 answers each. These questions all ask for specific models, so this group is measured on its own day and is not compared with the categories above.</p>
+    <p class="lead"><span id="cohort-when">First week, measured October 14, 2026.</span> 50 answers per category (25 ChatGPT, 25 Gemini), five buyer situations with 10 answers each. These questions all ask for specific models, so this group is measured on its own day and is not compared with the categories above.</p>
     <div id="cohort-cats"></div>
+  </section>
+
+  <section class="cohort" id="onetime" style="display:none">
+    <h2>One-time readings</h2>
+    <p class="lead">Categories measured once, with the same question design as the group above: 50 answers per category (25 ChatGPT, 25 Gemini), five buyer situations with 10 answers each. They are not part of the weekly index and are not compared with any other category. A category joins the weekly index if a brand in it subscribes.</p>
+    <div id="onetime-cats"></div>
   </section>
 
   <div class="weeks" id="weeks-section" style="display:none">
@@ -145,6 +151,11 @@ async function main() {
     const cr = await fetch('carsamba.json');
     if (cr.ok) renderCohort(await cr.json());
   } catch (e) { /* cohort section stays hidden */ }
+
+  try {
+    const tr = await fetch('tekseferlik.json');
+    if (tr.ok) renderCohort(await tr.json(), 'onetime');
+  } catch (e) { /* one-time section stays hidden */ }
 
   if (weeks.length > 1) {
     document.getElementById('weeks-section').style.display = '';
@@ -200,6 +211,18 @@ function renderCategory(name, d) {
 
   div.appendChild(cols);
 
+  // 2026-10-19: brands recommended per answer and web searches per request, per assistant.
+  const pa = d.per_answer || {};
+  const paParts = Object.entries(pa).map(([m, v]) =>
+    `${escapeHtml(m)} ${v.brands.toFixed(1)} distinct brands recommended per answer` +
+    (v.searches === null || v.searches === undefined ? '' : `, ${v.searches.toFixed(1)} web searches per request`));
+  if (paParts.length) {
+    const note = document.createElement('div');
+    note.className = 'search-note';
+    note.textContent = 'Per answer, on average: ' + paParts.join('; ') + '.';
+    div.appendChild(note);
+  }
+
   if (d.changes !== undefined) {
     const ch = document.createElement('div');
     ch.className = 'changes';
@@ -213,12 +236,29 @@ function renderCategory(name, d) {
   return div;
 }
 
-function renderCohort(c) {
-  const el = document.getElementById('cohort-cats');
+function longDate(iso) {
+  // "2026-10-21" -> "October 21, 2026"; a run past midnight ("a/b") shows both days
+  return String(iso || '').split('/').filter(Boolean).map(s => {
+    const [y, m, d] = s.split('-').map(Number);
+    return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString('en-US', {month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC'});
+  }).join(' and ');
+}
+
+function renderCohort(c, section = 'cohort') {
+  const el = document.getElementById(section + '-cats');
+  const week = parseInt(c.hafta, 10);
+  const first = (c.kategoriler || [])[0];
+  if (section === 'cohort' && first && first.measured) {
+    document.getElementById('cohort-when').textContent =
+      `${week === 1 ? 'First week' : 'Week ' + week}, measured ${longDate(first.measured)}.`;
+  }
   for (const k of (c.kategoriler || [])) {
     const div = document.createElement('div');
     div.className = 'category';
-    let html = `<h2>${escapeHtml(k.ad)}</h2><div class="n">${k.n} answers, week 1</div>`;
+    const when = section === 'onetime'
+      ? `measured once on ${longDate(k.measured)}. Joins the weekly index if a brand subscribes.`
+      : `week ${week}`;
+    let html = `<h2>${escapeHtml(k.ad)}</h2><div class="n">${k.n} answers, ${when}</div>`;
     if (!k.per_situation) {
       for (const [brand, pct, cg, gm] of k.brands) {
         html += `<div class="bar-row">
@@ -239,10 +279,14 @@ function renderCohort(c) {
     html += k.below_threshold
       ? `<div class="search-note warn">Note: Gemini ran a recorded web search in only ${hit} of ${gn} answers in this category (below 50%).</div>`
       : `<div class="search-note">Gemini ran a recorded web search in ${hit} of ${gn} answers.</div>`;
+    const pa = Object.entries(k.per_answer || {}).map(([m, v]) =>
+      `${escapeHtml(m)} ${v.brands.toFixed(1)} distinct brands recommended per answer` +
+      (v.searches === null || v.searches === undefined ? '' : `, ${v.searches.toFixed(1)} web searches per request`));
+    if (pa.length) html += `<div class="search-note">Per answer, on average: ${pa.join('; ')}.</div>`;
     div.innerHTML = html;
     el.appendChild(div);
   }
-  document.getElementById('cohort').style.display = '';
+  document.getElementById(section).style.display = '';
 }
 
 function escapeHtml(s) {

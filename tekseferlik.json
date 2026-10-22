@@ -1,0 +1,775 @@
+{
+ "hafta": "01",
+ "kategoriler": [
+  {
+   "ad": "Espresso machines",
+   "n": 50,
+   "measured": "2026-10-21",
+   "per_situation": false,
+   "gemini_search": [
+    10,
+    25
+   ],
+   "below_threshold": true,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.8,
+     "under3": 19,
+     "n": 25,
+     "searches": 2.88
+    },
+    "Gemini": {
+     "brands": 3.0,
+     "under3": 7,
+     "n": 25,
+     "searches": 0.92
+    }
+   },
+   "brands": [
+    [
+     "Breville",
+     72,
+     16,
+     20
+    ],
+    [
+     "De'Longhi",
+     38,
+     9,
+     10
+    ],
+    [
+     "La Marzocco",
+     20,
+     5,
+     5
+    ],
+    [
+     "Flair",
+     18,
+     1,
+     8
+    ],
+    [
+     "Philips",
+     14,
+     3,
+     4
+    ]
+   ],
+   "situations": [
+    [
+     "First espresso machine, easy morning lattes",
+     10,
+     [
+      [
+       "Breville",
+       8
+      ],
+      [
+       "Philips",
+       7
+      ],
+      [
+       "Nespresso",
+       3
+      ]
+     ]
+    ],
+    [
+     "Coffee enthusiast, pulls shots and steams milk",
+     10,
+     [
+      [
+       "Breville",
+       10
+      ],
+      [
+       "Profitec",
+       5
+      ],
+      [
+       "Gaggia",
+       2
+      ]
+     ]
+    ],
+    [
+     "Tiny kitchen, little counter space",
+     10,
+     [
+      [
+       "De'Longhi",
+       9
+      ],
+      [
+       "Breville",
+       8
+      ],
+      [
+       "Flair",
+       3
+      ]
+     ]
+    ],
+    [
+     "$300 max",
+     10,
+     [
+      [
+       "Breville",
+       10
+      ],
+      [
+       "De'Longhi",
+       8
+      ],
+      [
+       "Flair",
+       6
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, should last fifteen years",
+     10,
+     [
+      [
+       "La Marzocco",
+       10
+      ],
+      [
+       "ECM",
+       3
+      ],
+      [
+       "Slayer",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "breville.com",
+    "delonghi.com",
+    "lamarzoccousa.com"
+   ]
+  },
+  {
+   "ad": "Coffee grinders",
+   "n": 50,
+   "measured": "2026-10-21",
+   "per_situation": false,
+   "gemini_search": [
+    11,
+    25
+   ],
+   "below_threshold": true,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.36,
+     "under3": 12,
+     "n": 25,
+     "searches": 2.44
+    },
+    "Gemini": {
+     "brands": 3.84,
+     "under3": 2,
+     "n": 25,
+     "searches": 0.88
+    }
+   },
+   "brands": [
+    [
+     "Baratza",
+     40,
+     10,
+     10
+    ],
+    [
+     "Fellow",
+     40,
+     10,
+     10
+    ],
+    [
+     "1Zpresso",
+     26,
+     4,
+     9
+    ],
+    [
+     "Eureka",
+     24,
+     3,
+     9
+    ],
+    [
+     "OXO",
+     22,
+     8,
+     3
+    ]
+   ],
+   "situations": [
+    [
+     "Switching from pre-ground, mostly pour-over",
+     10,
+     [
+      [
+       "Baratza",
+       10
+      ],
+      [
+       "Fellow",
+       9
+      ],
+      [
+       "1Zpresso",
+       3
+      ]
+     ]
+    ],
+    [
+     "New espresso machine, needs an espresso grinder",
+     10,
+     [
+      [
+       "Baratza",
+       10
+      ],
+      [
+       "Eureka",
+       5
+      ],
+      [
+       "Turin",
+       5
+      ]
+     ]
+    ],
+    [
+     "Grinds early, must not wake the family",
+     10,
+     [
+      [
+       "Fellow",
+       10
+      ],
+      [
+       "Eureka",
+       7
+      ],
+      [
+       "1Zpresso",
+       6
+      ]
+     ]
+    ],
+    [
+     "$100 max",
+     10,
+     [
+      [
+       "OXO",
+       8
+      ],
+      [
+       "Timemore",
+       6
+      ],
+      [
+       "Kingrinder",
+       5
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, one grinder for espresso and filter",
+     10,
+     [
+      [
+       "Weber Workshops",
+       9
+      ],
+      [
+       "Option-O",
+       7
+      ],
+      [
+       "Mazzer",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "baratza.com",
+    "fellowproducts.com",
+    "oxo.com"
+   ]
+  },
+  {
+   "ad": "Air purifiers",
+   "n": 50,
+   "measured": "2026-10-21",
+   "per_situation": false,
+   "gemini_search": [
+    18,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.84,
+     "under3": 16,
+     "n": 25,
+     "searches": 3.04
+    },
+    "Gemini": {
+     "brands": 3.08,
+     "under3": 9,
+     "n": 25,
+     "searches": 1.48
+    }
+   },
+   "brands": [
+    [
+     "Levoit",
+     72,
+     16,
+     20
+    ],
+    [
+     "Coway",
+     66,
+     18,
+     15
+    ],
+    [
+     "Winix",
+     34,
+     6,
+     11
+    ],
+    [
+     "Blueair",
+     18,
+     4,
+     5
+    ],
+    [
+     "Alen",
+     8,
+     0,
+     4
+    ]
+   ],
+   "situations": [
+    [
+     "Seasonal allergies, bedroom",
+     10,
+     [
+      [
+       "Coway",
+       10
+      ],
+      [
+       "Levoit",
+       8
+      ],
+      [
+       "Winix",
+       5
+      ]
+     ]
+    ],
+    [
+     "Two cats, pet hair and smell",
+     10,
+     [
+      [
+       "Levoit",
+       10
+      ],
+      [
+       "Coway",
+       6
+      ],
+      [
+       "Winix",
+       6
+      ]
+     ]
+    ],
+    [
+     "Wildfire smoke, large living room",
+     10,
+     [
+      [
+       "Coway",
+       8
+      ],
+      [
+       "Levoit",
+       8
+      ],
+      [
+       "Austin Air",
+       2
+      ]
+     ]
+    ],
+    [
+     "$150 max, small apartment",
+     10,
+     [
+      [
+       "Levoit",
+       8
+      ],
+      [
+       "Winix",
+       6
+      ],
+      [
+       "Blueair",
+       5
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, quiet enough for a nursery",
+     10,
+     [
+      [
+       "Coway",
+       7
+      ],
+      [
+       "Alen",
+       4
+      ],
+      [
+       "Rabbit Air",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "cowaymega.com",
+    "epa.gov",
+    "levoit.com"
+   ]
+  },
+  {
+   "ad": "Wireless earbuds",
+   "n": 50,
+   "measured": "2026-10-21",
+   "per_situation": false,
+   "gemini_search": [
+    22,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.04,
+     "under3": 15,
+     "n": 25,
+     "searches": 2.76
+    },
+    "Gemini": {
+     "brands": 3.44,
+     "under3": 5,
+     "n": 25,
+     "searches": 1.6
+    }
+   },
+   "brands": [
+    [
+     "Anker",
+     28,
+     5,
+     9
+    ],
+    [
+     "Sony",
+     28,
+     9,
+     5
+    ],
+    [
+     "Apple",
+     24,
+     4,
+     8
+    ],
+    [
+     "Bose",
+     22,
+     6,
+     5
+    ],
+    [
+     "Beats",
+     20,
+     5,
+     5
+    ]
+   ],
+   "situations": [
+    [
+     "Loud subway commute, noise cancelling",
+     10,
+     [
+      [
+       "Bose",
+       10
+      ],
+      [
+       "Apple",
+       8
+      ],
+      [
+       "Sony",
+       7
+      ]
+     ]
+    ],
+    [
+     "Running and lifting, must stay in",
+     10,
+     [
+      [
+       "Beats",
+       10
+      ],
+      [
+       "Anker",
+       5
+      ],
+      [
+       "Shokz",
+       4
+      ]
+     ]
+    ],
+    [
+     "Calls all day, mic matters most",
+     10,
+     [
+      [
+       "Jabra",
+       5
+      ],
+      [
+       "Sony",
+       5
+      ],
+      [
+       "Technics",
+       5
+      ]
+     ]
+    ],
+    [
+     "$100 max",
+     10,
+     [
+      [
+       "EarFun",
+       10
+      ],
+      [
+       "Anker",
+       7
+      ],
+      [
+       "CMF",
+       3
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, sound quality first",
+     10,
+     [
+      [
+       "Bowers & Wilkins",
+       7
+      ],
+      [
+       "Noble Audio",
+       7
+      ],
+      [
+       "Devialet",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "rtings.com",
+    "soundguys.com",
+    "wired.com"
+   ]
+  },
+  {
+   "ad": "Standing desks",
+   "n": 50,
+   "measured": "2026-10-21",
+   "per_situation": false,
+   "gemini_search": [
+    23,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.28,
+     "under3": 11,
+     "n": 25,
+     "searches": 3.6
+    },
+    "Gemini": {
+     "brands": 3.48,
+     "under3": 8,
+     "n": 25,
+     "searches": 2.84
+    }
+   },
+   "brands": [
+    [
+     "Uplift",
+     60,
+     14,
+     16
+    ],
+    [
+     "FlexiSpot",
+     56,
+     14,
+     14
+    ],
+    [
+     "Deskhaus",
+     40,
+     6,
+     14
+    ],
+    [
+     "iMovR",
+     14,
+     1,
+     6
+    ],
+    [
+     "Branch",
+     12,
+     4,
+     2
+    ]
+   ],
+   "situations": [
+    [
+     "Works from home, wants to stop sitting all day",
+     10,
+     [
+      [
+       "Uplift",
+       10
+      ],
+      [
+       "FlexiSpot",
+       8
+      ],
+      [
+       "Branch",
+       3
+      ]
+     ]
+    ],
+    [
+     "6'5\", needs extra height",
+     10,
+     [
+      [
+       "Uplift",
+       7
+      ],
+      [
+       "FlexiSpot",
+       5
+      ],
+      [
+       "Deskhaus",
+       4
+      ]
+     ]
+    ],
+    [
+     "Two big monitors, heavy setup, no wobble",
+     10,
+     [
+      [
+       "Deskhaus",
+       9
+      ],
+      [
+       "Uplift",
+       9
+      ],
+      [
+       "FlexiSpot",
+       6
+      ]
+     ]
+    ],
+    [
+     "$300 max",
+     10,
+     [
+      [
+       "FlexiSpot",
+       9
+      ],
+      [
+       "FEZIBO",
+       5
+      ],
+      [
+       "VIVO",
+       4
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, solid wood top",
+     10,
+     [
+      [
+       "Deskhaus",
+       7
+      ],
+      [
+       "Ergonofis",
+       6
+      ],
+      [
+       "Uplift",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "upliftdesk.com",
+    "flexispot.com",
+    "vari.com"
+   ]
+  }
+ ]
+}

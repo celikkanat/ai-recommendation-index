@@ -1,42 +1,57 @@
 {
- "hafta": "01",
+ "hafta": "02",
  "kategoriler": [
   {
    "ad": "Travel bags",
    "n": 50,
+   "measured": "2026-10-21",
    "per_situation": true,
    "gemini_search": [
-    11,
+    12,
     25
    ],
    "below_threshold": true,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.96,
+     "under3": 15,
+     "n": 25,
+     "searches": 3.64
+    },
+    "Gemini": {
+     "brands": 3.84,
+     "under3": 7,
+     "n": 25,
+     "searches": 0.88
+    }
+   },
    "brands": [
     [
      "Briggs & Riley",
-     38,
-     9,
+     40,
+     10,
      10
     ],
     [
-     "Travelpro",
-     32,
-     8,
-     8
+     "Osprey",
+     38,
+     10,
+     9
     ],
     [
-     "Osprey",
+     "Travelpro",
      28,
      6,
      8
     ],
     [
-     "CabinZero",
-     14,
-     5,
-     2
+     "American Tourister",
+     12,
+     3,
+     3
     ],
     [
-     "American Tourister",
+     "CabinZero",
      12,
      2,
      4
@@ -49,15 +64,15 @@
      [
       [
        "Osprey",
-       10
+       9
       ],
       [
        "Cotopaxi",
-       5
+       6
       ],
       [
        "Aer",
-       4
+       3
       ]
      ]
     ],
@@ -67,14 +82,14 @@
      [
       [
        "Briggs & Riley",
-       9
+       10
       ],
       [
        "Travelpro",
-       9
+       8
       ],
       [
-       "Monos",
+       "Tumi",
        2
       ]
      ]
@@ -84,16 +99,16 @@
      10,
      [
       [
+       "Osprey",
+       9
+      ],
+      [
        "CabinZero",
        6
       ],
       [
        "Coowoz",
-       4
-      ],
-      [
-       "Osprey",
-       4
+       3
       ]
      ]
     ],
@@ -110,7 +125,7 @@
        5
       ],
       [
-       "Travelpro",
+       "Amazon Basics",
        3
       ]
      ]
@@ -125,7 +140,7 @@
       ],
       [
        "Rimowa",
-       5
+       6
       ],
       [
        "Travelpro",
@@ -136,49 +151,64 @@
    ],
    "sources": [
     "briggs-riley.com",
-    "travelpro.com",
-    "osprey.com"
+    "osprey.com",
+    "patagonia.com"
    ]
   },
   {
    "ad": "Hair tools",
    "n": 50,
+   "measured": "2026-10-21",
    "per_situation": true,
    "gemini_search": [
-    18,
+    21,
     25
    ],
    "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.28,
+     "under3": 12,
+     "n": 25,
+     "searches": 3.08
+    },
+    "Gemini": {
+     "brands": 3.44,
+     "under3": 7,
+     "n": 25,
+     "searches": 1.96
+    }
+   },
    "brands": [
     [
      "T3",
-     42,
-     9,
+     46,
+     11,
      12
     ],
     [
      "Bio Ionic",
-     24,
+     26,
      3,
-     9
+     10
+    ],
+    [
+     "GHD",
+     24,
+     4,
+     8
     ],
     [
      "Dyson",
-     24,
-     5,
+     22,
+     4,
      7
     ],
     [
-     "BaBylissPRO",
+     "Shark",
      22,
      5,
      6
-    ],
-    [
-     "Hot Tools",
-     20,
-     6,
-     4
     ]
    ],
    "situations": [
@@ -187,16 +217,16 @@
      10,
      [
       [
-       "Dyson",
-       9
+       "Shark",
+       10
       ],
       [
-       "Shark",
+       "Dyson",
        8
       ],
       [
        "PATTERN",
-       6
+       5
       ]
      ]
     ],
@@ -210,10 +240,10 @@
       ],
       [
        "Bio Ionic",
-       4
+       5
       ],
       [
-       "Conair",
+       "BondiBoost",
        2
       ]
      ]
@@ -228,11 +258,11 @@
       ],
       [
        "Hot Tools",
-       7
+       4
       ],
       [
        "L'ange",
-       5
+       4
       ]
      ]
     ],
@@ -242,15 +272,15 @@
      [
       [
        "BaBylissPRO",
-       9
+       6
       ],
       [
        "T3",
-       5
+       6
       ],
       [
        "GHD",
-       4
+       5
       ]
      ]
     ],
@@ -264,59 +294,74 @@
       ],
       [
        "T3",
-       7
+       8
       ],
       [
        "GHD",
-       4
+       6
       ]
      ]
     ]
    ],
    "sources": [
     "t3micro.com",
-    "dyson.com",
-    "conair.com"
+    "ghdhair.com",
+    "dyson.com"
    ]
   },
   {
    "ad": "Pickleball paddles",
    "n": 50,
+   "measured": "2026-10-21",
    "per_situation": false,
    "gemini_search": [
-    22,
+    23,
     25
    ],
    "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.2,
+     "under3": 15,
+     "n": 25,
+     "searches": 3.52
+    },
+    "Gemini": {
+     "brands": 3.96,
+     "under3": 6,
+     "n": 25,
+     "searches": 1.76
+    }
+   },
    "brands": [
     [
-     "Vatic Pro",
-     48,
-     10,
-     14
+     "Selkirk (incl. SLK, Selkirk LABS)",
+     42,
+     13,
+     8
     ],
     [
-     "Selkirk (incl. SLK, Selkirk LABS)",
-     44,
-     13,
-     9
+     "Vatic Pro",
+     42,
+     9,
+     12
     ],
     [
      "JOOLA",
-     34,
-     10,
-     7
+     28,
+     5,
+     9
+    ],
+    [
+     "Friday",
+     24,
+     3,
+     9
     ],
     [
      "ProKennex",
      18,
      4,
-     5
-    ],
-    [
-     "Friday",
-     14,
-     2,
      5
     ]
    ],
@@ -327,15 +372,15 @@
      [
       [
        "Selkirk",
-       9
+       7
       ],
       [
        "Vatic Pro",
-       8
+       6
       ],
       [
        "Friday",
-       3
+       5
       ]
      ]
     ],
@@ -345,15 +390,15 @@
      [
       [
        "JOOLA",
-       7
-      ],
-      [
-       "11SIX24",
-       4
+       6
       ],
       [
        "Selkirk",
        4
+      ],
+      [
+       "CRBN",
+       3
       ]
      ]
     ],
@@ -367,11 +412,11 @@
       ],
       [
        "Vatic Pro",
-       6
+       5
       ],
       [
-       "Engage",
-       5
+       "Selkirk",
+       4
       ]
      ]
     ],
@@ -381,14 +426,14 @@
      [
       [
        "Vatic Pro",
-       10
+       9
       ],
       [
        "Friday",
-       4
+       7
       ],
       [
-       "Selkirk",
+       "Ronbus",
        3
       ]
      ]
@@ -403,60 +448,75 @@
       ],
       [
        "Six Zero",
-       5
+       7
       ],
       [
-       "Honolulu",
-       3
+       "Selkirk",
+       5
       ]
      ]
     ]
    ],
    "sources": [
     "selkirk.com",
-    "joola.com",
-    "vaticpro.com"
+    "vaticpro.com",
+    "usapickleball.org"
    ]
   },
   {
    "ad": "Water filters",
    "n": 50,
+   "measured": "2026-10-21",
    "per_situation": false,
    "gemini_search": [
-    17,
+    19,
     25
    ],
    "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.76,
+     "under3": 20,
+     "n": 25,
+     "searches": 3.84
+    },
+    "Gemini": {
+     "brands": 4.24,
+     "under3": 5,
+     "n": 25,
+     "searches": 1.88
+    }
+   },
    "brands": [
     [
      "AquaTru",
-     38,
+     40,
      7,
-     12
-    ],
-    [
-     "Waterdrop",
-     32,
-     1,
-     15
+     13
     ],
     [
      "Brita",
-     28,
-     10,
-     4
+     34,
+     14,
+     3
     ],
     [
      "Aquasana",
-     26,
-     9,
-     4
+     32,
+     13,
+     3
     ],
     [
-     "PUR",
+     "Waterdrop",
      26,
-     6,
-     7
+     1,
+     12
+    ],
+    [
+     "ZeroWater",
+     26,
+     3,
+     10
     ]
    ],
    "situations": [
@@ -466,14 +526,14 @@
      [
       [
        "AquaTru",
+       7
+      ],
+      [
+       "Brita",
        5
       ],
       [
        "Clearly Filtered",
-       5
-      ],
-      [
-       "Brita",
        4
       ]
      ]
@@ -483,15 +543,15 @@
      10,
      [
       [
-       "AquaTru",
-       4
-      ],
-      [
        "Aquasana",
-       4
+       7
       ],
       [
        "ZeroWater",
+       5
+      ],
+      [
+       "AquaTru",
        4
       ]
      ]
@@ -502,15 +562,15 @@
      [
       [
        "AquaTru",
-       10
+       9
+      ],
+      [
+       "Brita",
+       4
       ],
       [
        "Waterdrop",
-       5
-      ],
-      [
-       "Bluevua",
-       2
+       3
       ]
      ]
     ],
@@ -524,11 +584,11 @@
       ],
       [
        "PUR",
-       6
+       7
       ],
       [
-       "Waterdrop",
-       4
+       "ZeroWater",
+       6
       ]
      ]
     ],
@@ -537,23 +597,23 @@
      10,
      [
       [
-       "Aquasana",
+       "Waterdrop",
        6
       ],
       [
-       "Waterdrop",
+       "Aquasana",
        5
       ],
       [
-       "Kinetico",
-       3
+       "Cloud",
+       2
       ]
      ]
     ]
    ],
    "sources": [
-    "aquasana.com",
     "brita.com",
+    "aquasana.com",
     "epa.gov"
    ]
   }
