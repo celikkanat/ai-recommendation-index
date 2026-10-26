@@ -1,6 +1,289 @@
 {
  "haftalar": [
   {
+   "hafta": "06",
+   "kategoriler": {
+    "Blender": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Ninja Professional Plus Auto-iQ BN701",
+       18
+      ],
+      [
+       "Ninja Fit QB3001SS",
+       16
+      ],
+      [
+       "Vitamix 5200",
+       16
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Vitamix",
+       60,
+       -4
+      ],
+      [
+       "Ninja",
+       58,
+       -2
+      ],
+      [
+       "NutriBullet",
+       34,
+       -2
+      ],
+      [
+       "Hamilton Beach",
+       18,
+       2
+      ],
+      [
+       "Blendtec",
+       16,
+       4
+      ]
+     ],
+     "top3_sources": [
+      "vitamix.com",
+      "rtings.com",
+      "hamiltonbeach.com"
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 1.68,
+       "under3": 22,
+       "n": 25,
+       "searches": 2.72,
+       "searched": 25,
+       "search_n": 25
+      },
+      "Gemini": {
+       "brands": 3.44,
+       "under3": 9,
+       "n": 25,
+       "searches": 1.36,
+       "searched": 18,
+       "search_n": 25
+      }
+     },
+     "changes": [],
+     "stable": true
+    },
+    "Air fryer": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Ninja AF101",
+       21
+      ],
+      [
+       "Cosori TurboBlaze 6-Quart",
+       17
+      ],
+      [
+       "Instant Vortex Plus 6-Quart ClearCook",
+       13
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Cosori",
+       62,
+       4
+      ],
+      [
+       "Ninja",
+       61,
+       2
+      ],
+      [
+       "Instant",
+       41,
+       -9
+      ],
+      [
+       "Dash",
+       17,
+       3
+      ],
+      [
+       "Typhur",
+       12,
+       3
+      ]
+     ],
+     "top3_sources": [
+      "rtings.com",
+      "bonappetit.com",
+      "Food Network"
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 1.74,
+       "under3": 41,
+       "n": 50,
+       "searches": 3.06,
+       "searched": 50,
+       "search_n": 50
+      },
+      "Gemini": {
+       "brands": 3.04,
+       "under3": 11,
+       "n": 50,
+       "searches": 1.86,
+       "searched": 43,
+       "search_n": 50
+      }
+     },
+     "changes": [
+      "AI cited foodnetwork.com in 10 answers (last week 21). (pending next week's confirmation)"
+     ],
+     "stable": false
+    },
+    "Rice cooker": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Aroma ARC-914SBD",
+       10
+      ],
+      [
+       "Dash Mini",
+       8
+      ],
+      [
+       "Aroma ARC-743-1NG",
+       8
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Zojirushi",
+       74,
+       -2
+      ],
+      [
+       "Aroma",
+       38,
+       -8
+      ],
+      [
+       "Cuckoo",
+       24,
+       4
+      ],
+      [
+       "Toshiba",
+       16,
+       4
+      ],
+      [
+       "Tiger",
+       16,
+       2
+      ]
+     ],
+     "top3_sources": [
+      "zojirushi.com",
+      "store.zojirushi.com",
+      "shop.zojirushi.com"
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 1.36,
+       "under3": 24,
+       "n": 25,
+       "searches": 3.08,
+       "searched": 25,
+       "search_n": 25
+      },
+      "Gemini": {
+       "brands": 3.0,
+       "under3": 6,
+       "n": 25,
+       "searches": 1.6,
+       "searched": 19,
+       "search_n": 25
+      }
+     },
+     "changes": [],
+     "stable": true
+    },
+    "Phone": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Samsung Galaxy S26 Ultra",
+       26
+      ],
+      [
+       "Apple iPhone 18 Pro Max",
+       16
+      ],
+      [
+       "Samsung Galaxy A37 5G",
+       8
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Samsung",
+       80,
+       5
+      ],
+      [
+       "Apple",
+       74,
+       1
+      ],
+      [
+       "Google",
+       45,
+       -7
+      ],
+      [
+       "OnePlus",
+       13,
+       -2
+      ],
+      [
+       "RedMagic",
+       9,
+       -1
+      ]
+     ],
+     "top3_sources": [
+      "apple.com",
+      "samsung.com",
+      "tomsguide.com"
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.16,
+       "under3": 33,
+       "n": 50,
+       "searches": 2.86,
+       "searched": 50,
+       "search_n": 50
+      },
+      "Gemini": {
+       "brands": 3.68,
+       "under3": 6,
+       "n": 50,
+       "searches": 1.58,
+       "searched": 39,
+       "search_n": 50
+      }
+     },
+     "changes": [],
+     "stable": true
+    }
+   }
+  },
+  {
    "hafta": "05",
    "kategoriler": {
     "Blender": {
@@ -51,6 +334,24 @@
       "rtings.com",
       "nutribullet.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 1.84,
+       "under3": 20,
+       "n": 25,
+       "searches": 2.88,
+       "searched": 25,
+       "search_n": 25
+      },
+      "Gemini": {
+       "brands": 3.36,
+       "under3": 8,
+       "n": 25,
+       "searches": 1.56,
+       "searched": 18,
+       "search_n": 25
+      }
+     },
      "changes": [],
      "stable": true
     },
@@ -102,6 +403,24 @@
       "foodnetwork.com",
       "Food Network"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 1.8,
+       "under3": 42,
+       "n": 50,
+       "searches": 3.18,
+       "searched": 50,
+       "search_n": 50
+      },
+      "Gemini": {
+       "brands": 2.98,
+       "under3": 13,
+       "n": 50,
+       "searches": 1.82,
+       "searched": 42,
+       "search_n": 50
+      }
+     },
      "changes": [
       "Cosori down: 69 -> 59 of 100 answers.",
       "Instant down: 70 -> 52 of 100 answers.",
@@ -161,6 +480,24 @@
       "shop.zojirushi.com",
       "store.zojirushi.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 1.6,
+       "under3": 23,
+       "n": 25,
+       "searches": 3.12,
+       "searched": 25,
+       "search_n": 25
+      },
+      "Gemini": {
+       "brands": 3.0,
+       "under3": 9,
+       "n": 25,
+       "searches": 1.64,
+       "searched": 20,
+       "search_n": 25
+      }
+     },
      "changes": [
       "Cuckoo down: 22 -> 11 of 50 answers.",
       "Tiger down: 15 -> 8 of 50 answers.",
@@ -216,6 +553,24 @@
       "samsung.com",
       "store.google.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.14,
+       "under3": 33,
+       "n": 50,
+       "searches": 3.24,
+       "searched": 50,
+       "search_n": 50
+      },
+      "Gemini": {
+       "brands": 3.64,
+       "under3": 6,
+       "n": 50,
+       "searches": 1.44,
+       "searched": 37,
+       "search_n": 50
+      }
+     },
      "changes": [
       "AI cited apple.com in 25 answers (last week 37).",
       "AI cited google.com in 11 answers (last week 21).",
@@ -276,6 +631,24 @@
       "rtings.com",
       "nutribullet.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.16,
+       "under3": 15,
+       "n": 25,
+       "searches": 2.2,
+       "searched": 25,
+       "search_n": 25
+      },
+      "Gemini": {
+       "brands": 3.08,
+       "under3": 9,
+       "n": 25,
+       "searches": 1.24,
+       "searched": 15,
+       "search_n": 25
+      }
+     },
      "changes": [],
      "stable": true
     },
@@ -327,6 +700,24 @@
       "cosori.com",
       "ninjakitchen.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.5,
+       "under3": 20,
+       "n": 50,
+       "searches": 2.74,
+       "searched": 50,
+       "search_n": 50
+      },
+      "Gemini": {
+       "brands": 3.08,
+       "under3": 11,
+       "n": 50,
+       "searches": 1.9,
+       "searched": 45,
+       "search_n": 50
+      }
+     },
      "changes": [
       "AI cited instantpot.com in 29 answers (last week 15).",
       "AI's most-cited source changed from cosori.com to instantpot.com."
@@ -381,6 +772,24 @@
       "cuckooamerica.com",
       "shop.zojirushi.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.32,
+       "under3": 14,
+       "n": 25,
+       "searches": 2.52,
+       "searched": 25,
+       "search_n": 25
+      },
+      "Gemini": {
+       "brands": 2.96,
+       "under3": 6,
+       "n": 25,
+       "searches": 1.36,
+       "searched": 16,
+       "search_n": 25
+      }
+     },
      "changes": [],
      "stable": true
     },
@@ -432,6 +841,24 @@
       "apple.com",
       "google.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.82,
+       "under3": 16,
+       "n": 50,
+       "searches": 2.46,
+       "searched": 50,
+       "search_n": 50
+      },
+      "Gemini": {
+       "brands": 3.6,
+       "under3": 7,
+       "n": 50,
+       "searches": 1.64,
+       "searched": 37,
+       "search_n": 50
+      }
+     },
      "changes": [],
      "stable": true
     }
@@ -488,6 +915,24 @@
       "ninjakitchen.com",
       "hamiltonbeach.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.24,
+       "under3": 15,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.4,
+       "under3": 7,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     },
      "changes": [],
      "stable": true
     },
@@ -539,6 +984,24 @@
       "rtings.com",
       "instantpot.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.48,
+       "under3": 26,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.04,
+       "under3": 10,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     },
      "changes": [
       "AI cited foodnetwork.com in 21 answers (last week 11).",
       "AI cited instantpot.com in 15 answers (last week 25)."
@@ -593,6 +1056,24 @@
       "aromaco.com",
       "cuckooamerica.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 1.96,
+       "under3": 18,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.04,
+       "under3": 6,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     },
      "changes": [],
      "stable": true
     },
@@ -644,6 +1125,24 @@
       "apple.com",
       "google.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.94,
+       "under3": 14,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.58,
+       "under3": 8,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     },
      "changes": [],
      "stable": true
     }
@@ -700,6 +1199,24 @@
       "ninjakitchen.com",
       "rtings.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.0,
+       "under3": 17,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.12,
+       "under3": 8,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     },
      "changes": [],
      "stable": true
     },
@@ -751,6 +1268,24 @@
       "instantpot.com",
       "rtings.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.42,
+       "under3": 25,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.12,
+       "under3": 12,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     },
      "changes": [
       "AI cited cosori.com in 31 answers (last week 21).",
       "AI cited foodnetwork.com in 11 answers (last week 21).",
@@ -806,6 +1341,24 @@
       "aromaco.com",
       "walmart.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.04,
+       "under3": 18,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.08,
+       "under3": 8,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     },
      "changes": [
       "Toshiba down: 12 -> 5 of 50 answers."
      ],
@@ -859,6 +1412,24 @@
       "apple.com",
       "google.com"
      ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.86,
+       "under3": 13,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.62,
+       "under3": 6,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     },
      "changes": [],
      "stable": true
     }
@@ -909,7 +1480,25 @@
       "vitamix.com",
       "ninjakitchen.com",
       "nutribullet.com"
-     ]
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.04,
+       "under3": 17,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.04,
+       "under3": 11,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     }
     },
     "Air fryer": {
      "n": 100,
@@ -953,7 +1542,25 @@
       "instantpot.com",
       "cosori.com",
       "rtings.com"
-     ]
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.56,
+       "under3": 21,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.04,
+       "under3": 10,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     }
     },
     "Rice cooker": {
      "n": 50,
@@ -997,7 +1604,25 @@
       "zojirushi.com",
       "cuckooamerica.com",
       "tiger-corporation.com"
-     ]
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.12,
+       "under3": 15,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.16,
+       "under3": 5,
+       "n": 25,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     }
     },
     "Phone": {
      "n": 100,
@@ -1041,7 +1666,25 @@
       "samsung.com",
       "apple.com",
       "store.google.com"
-     ]
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.62,
+       "under3": 19,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      },
+      "Gemini": {
+       "brands": 3.58,
+       "under3": 6,
+       "n": 50,
+       "searches": null,
+       "searched": null,
+       "search_n": 0
+      }
+     }
     }
    }
   }
