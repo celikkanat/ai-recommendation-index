@@ -770,6 +770,924 @@
     "flexispot.com",
     "vari.com"
    ]
+  },
+  {
+   "ad": "Office chairs",
+   "n": 50,
+   "measured": "2026-10-28",
+   "per_situation": false,
+   "gemini_search": [
+    9,
+    25
+   ],
+   "below_threshold": true,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.12,
+     "under3": 14,
+     "n": 25,
+     "searches": 2.84
+    },
+    "Gemini": {
+     "brands": 4.12,
+     "under3": 7,
+     "n": 25,
+     "searches": 0.72
+    }
+   },
+   "brands": [
+    [
+     "Steelcase",
+     76,
+     17,
+     21
+    ],
+    [
+     "Herman Miller",
+     62,
+     11,
+     20
+    ],
+    [
+     "Branch",
+     20,
+     6,
+     4
+    ],
+    [
+     "Haworth",
+     18,
+     2,
+     7
+    ],
+    [
+     "Staples",
+     14,
+     5,
+     2
+    ]
+   ],
+   "situations": [
+    [
+     "Works from home 8+ hours a day",
+     10,
+     [
+      [
+       "Steelcase",
+       10
+      ],
+      [
+       "Herman Miller",
+       8
+      ],
+      [
+       "Branch",
+       3
+      ]
+     ]
+    ],
+    [
+     "6'4\", 250 lbs, most chairs too small",
+     10,
+     [
+      [
+       "Steelcase",
+       9
+      ],
+      [
+       "Herman Miller",
+       7
+      ],
+      [
+       "HON",
+       3
+      ]
+     ]
+    ],
+    [
+     "Lower back sore by end of workday",
+     10,
+     [
+      [
+       "Steelcase",
+       10
+      ],
+      [
+       "Branch",
+       6
+      ],
+      [
+       "Herman Miller",
+       6
+      ]
+     ]
+    ],
+    [
+     "$300 max",
+     10,
+     [
+      [
+       "Staples",
+       7
+      ],
+      [
+       "Sihoo",
+       4
+      ],
+      [
+       "Ticova",
+       4
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, should last 10+ years",
+     10,
+     [
+      [
+       "Herman Miller",
+       10
+      ],
+      [
+       "Steelcase",
+       8
+      ],
+      [
+       "Haworth",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "steelcase.com",
+    "hermanmiller.com",
+    "branchfurniture.com"
+   ]
+  },
+  {
+   "ad": "Walking pads",
+   "n": 50,
+   "measured": "2026-10-28",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.6,
+     "under3": 22,
+     "n": 25,
+     "searches": 3.68
+    },
+    "Gemini": {
+     "brands": 3.2,
+     "under3": 5,
+     "n": 25,
+     "searches": 2.12
+    }
+   },
+   "brands": [
+    [
+     "UREVO",
+     68,
+     14,
+     20
+    ],
+    [
+     "WalkingPad",
+     58,
+     13,
+     16
+    ],
+    [
+     "LifeSpan",
+     38,
+     8,
+     11
+    ],
+    [
+     "Sperax",
+     18,
+     0,
+     9
+    ],
+    [
+     "InMovement",
+     12,
+     3,
+     3
+    ]
+   ],
+   "situations": [
+    [
+     "Walks at a standing desk during calls",
+     10,
+     [
+      [
+       "LifeSpan",
+       9
+      ],
+      [
+       "WalkingPad",
+       9
+      ],
+      [
+       "UREVO",
+       8
+      ]
+     ]
+    ],
+    [
+     "Upstairs apartment, neighbors below",
+     10,
+     [
+      [
+       "UREVO",
+       9
+      ],
+      [
+       "WalkingPad",
+       9
+      ],
+      [
+       "Egofit",
+       2
+      ]
+     ]
+    ],
+    [
+     "Small apartment, folds or slides under the couch",
+     10,
+     [
+      [
+       "WalkingPad",
+       10
+      ],
+      [
+       "UREVO",
+       8
+      ],
+      [
+       "Sperax",
+       4
+      ]
+     ]
+    ],
+    [
+     "$300 max",
+     10,
+     [
+      [
+       "UREVO",
+       9
+      ],
+      [
+       "DeerRun",
+       5
+      ],
+      [
+       "Sperax",
+       4
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, 3-4 hours a day",
+     10,
+     [
+      [
+       "LifeSpan",
+       9
+      ],
+      [
+       "InMovement",
+       6
+      ],
+      [
+       "WalkingPad",
+       1
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "walkingpad.com",
+    "urevo.com",
+    "lifespanfitness.com"
+   ]
+  },
+  {
+   "ad": "Mattresses",
+   "n": 50,
+   "measured": "2026-10-28",
+   "per_situation": false,
+   "gemini_search": [
+    14,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.32,
+     "under3": 11,
+     "n": 25,
+     "searches": 2.92
+    },
+    "Gemini": {
+     "brands": 4.56,
+     "under3": 1,
+     "n": 25,
+     "searches": 1.48
+    }
+   },
+   "brands": [
+    [
+     "Brooklyn Bedding",
+     32,
+     6,
+     10
+    ],
+    [
+     "Helix",
+     30,
+     6,
+     9
+    ],
+    [
+     "Saatva",
+     30,
+     6,
+     9
+    ],
+    [
+     "Tempur-Pedic",
+     22,
+     3,
+     8
+    ],
+    [
+     "DreamCloud",
+     20,
+     5,
+     5
+    ]
+   ],
+   "situations": [
+    [
+     "Side sleeper, sore shoulders and hips",
+     10,
+     [
+      [
+       "Helix",
+       10
+      ],
+      [
+       "Nolah",
+       7
+      ],
+      [
+       "Saatva",
+       3
+      ]
+     ]
+    ],
+    [
+     "Sleeps hot",
+     10,
+     [
+      [
+       "Brooklyn Bedding",
+       8
+      ],
+      [
+       "Bear",
+       5
+      ],
+      [
+       "Helix",
+       4
+      ]
+     ]
+    ],
+    [
+     "Couple, different firmness, partner moves a lot",
+     10,
+     [
+      [
+       "Saatva",
+       8
+      ],
+      [
+       "Tempur-Pedic",
+       7
+      ],
+      [
+       "Nest Bedding",
+       5
+      ]
+     ]
+    ],
+    [
+     "Queen, $800 max",
+     10,
+     [
+      [
+       "DreamCloud",
+       10
+      ],
+      [
+       "Nectar",
+       8
+      ],
+      [
+       "Brooklyn Bedding",
+       5
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, should last 10+ years",
+     10,
+     [
+      [
+       "Naturepedic",
+       6
+      ],
+      [
+       "Vispring",
+       5
+      ],
+      [
+       "Avocado",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "sleepfoundation.org",
+    "saatva.com",
+    "dreamcloudsleep.com"
+   ]
+  },
+  {
+   "ad": "Cookware sets",
+   "n": 50,
+   "measured": "2026-10-28",
+   "per_situation": false,
+   "gemini_search": [
+    15,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.2,
+     "under3": 15,
+     "n": 25,
+     "searches": 3.12
+    },
+    "Gemini": {
+     "brands": 3.96,
+     "under3": 6,
+     "n": 25,
+     "searches": 1.48
+    }
+   },
+   "brands": [
+    [
+     "Tramontina",
+     58,
+     17,
+     12
+    ],
+    [
+     "All-Clad",
+     56,
+     13,
+     15
+    ],
+    [
+     "Cuisinart",
+     44,
+     7,
+     15
+    ],
+    [
+     "T-fal",
+     22,
+     4,
+     7
+    ],
+    [
+     "Demeyere",
+     20,
+     5,
+     5
+    ]
+   ],
+   "situations": [
+    [
+     "First apartment, learning to cook",
+     10,
+     [
+      [
+       "Tramontina",
+       9
+      ],
+      [
+       "Cuisinart",
+       5
+      ],
+      [
+       "T-fal",
+       4
+      ]
+     ]
+    ],
+    [
+     "Would rather not use nonstick coatings",
+     10,
+     [
+      [
+       "All-Clad",
+       8
+      ],
+      [
+       "Tramontina",
+       6
+      ],
+      [
+       "Cuisinart",
+       5
+      ]
+     ]
+    ],
+    [
+     "Induction cooktop",
+     10,
+     [
+      [
+       "All-Clad",
+       10
+      ],
+      [
+       "Tramontina",
+       8
+      ],
+      [
+       "Cuisinart",
+       4
+      ]
+     ]
+    ],
+    [
+     "$200 max",
+     10,
+     [
+      [
+       "Cuisinart",
+       8
+      ],
+      [
+       "T-fal",
+       7
+      ],
+      [
+       "Tramontina",
+       6
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, should last decades",
+     10,
+     [
+      [
+       "Demeyere",
+       10
+      ],
+      [
+       "All-Clad",
+       8
+      ],
+      [
+       "Hestan",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "goodhousekeeping.com",
+    "all-clad.com",
+    "americastestkitchen.com"
+   ]
+  },
+  {
+   "ad": "Portable power stations",
+   "n": 50,
+   "measured": "2026-10-28",
+   "per_situation": false,
+   "gemini_search": [
+    17,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.96,
+     "under3": 17,
+     "n": 25,
+     "searches": 3.52
+    },
+    "Gemini": {
+     "brands": 2.84,
+     "under3": 10,
+     "n": 25,
+     "searches": 1.52
+    }
+   },
+   "brands": [
+    [
+     "EcoFlow",
+     76,
+     14,
+     24
+    ],
+    [
+     "Anker",
+     74,
+     16,
+     21
+    ],
+    [
+     "Bluetti",
+     56,
+     13,
+     15
+    ],
+    [
+     "Jackery",
+     16,
+     4,
+     4
+    ]
+   ],
+   "situations": [
+    [
+     "A few outages a year, fridge and phones",
+     10,
+     [
+      [
+       "Anker",
+       9
+      ],
+      [
+       "Bluetti",
+       5
+      ],
+      [
+       "EcoFlow",
+       5
+      ]
+     ]
+    ],
+    [
+     "Weekend car camping: laptop, lights, small fridge",
+     10,
+     [
+      [
+       "Anker",
+       7
+      ],
+      [
+       "Bluetti",
+       6
+      ],
+      [
+       "EcoFlow",
+       6
+      ]
+     ]
+    ],
+    [
+     "Camper van, solar charging",
+     10,
+     [
+      [
+       "EcoFlow",
+       10
+      ],
+      [
+       "Bluetti",
+       7
+      ],
+      [
+       "Anker",
+       6
+      ]
+     ]
+    ],
+    [
+     "$500 max",
+     10,
+     [
+      [
+       "Anker",
+       8
+      ],
+      [
+       "Bluetti",
+       7
+      ],
+      [
+       "EcoFlow",
+       7
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, expandable home backup",
+     10,
+     [
+      [
+       "EcoFlow",
+       10
+      ],
+      [
+       "Anker",
+       7
+      ],
+      [
+       "Bluetti",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "ankersolix.com",
+    "bluettipower.com",
+    "ecoflow.com"
+   ]
+  },
+  {
+   "ad": "Power racks",
+   "n": 50,
+   "measured": "2026-10-28",
+   "per_situation": false,
+   "gemini_search": [
+    13,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.04,
+     "under3": 14,
+     "n": 25,
+     "searches": 2.64
+    },
+    "Gemini": {
+     "brands": 3.24,
+     "under3": 6,
+     "n": 25,
+     "searches": 1.64
+    }
+   },
+   "brands": [
+    [
+     "REP",
+     88,
+     23,
+     21
+    ],
+    [
+     "Rogue",
+     56,
+     11,
+     17
+    ],
+    [
+     "Titan",
+     54,
+     12,
+     15
+    ],
+    [
+     "Sorinex",
+     18,
+     4,
+     5
+    ],
+    [
+     "Bells of Steel",
+     8,
+     0,
+     4
+    ]
+   ],
+   "situations": [
+    [
+     "First rack, new garage gym",
+     10,
+     [
+      [
+       "REP",
+       10
+      ],
+      [
+       "Rogue",
+       8
+      ],
+      [
+       "Titan",
+       6
+      ]
+     ]
+    ],
+    [
+     "Basement ceiling about seven feet",
+     10,
+     [
+      [
+       "REP",
+       10
+      ],
+      [
+       "Titan",
+       7
+      ],
+      [
+       "Rogue",
+       4
+      ]
+     ]
+    ],
+    [
+     "Lifts heavy, wants attachments later",
+     10,
+     [
+      [
+       "REP",
+       10
+      ],
+      [
+       "Rogue",
+       8
+      ],
+      [
+       "Titan",
+       6
+      ]
+     ]
+    ],
+    [
+     "$500 max",
+     10,
+     [
+      [
+       "REP",
+       10
+      ],
+      [
+       "Titan",
+       8
+      ],
+      [
+       "Fitness Reality",
+       2
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, a rack for life",
+     10,
+     [
+      [
+       "Sorinex",
+       9
+      ],
+      [
+       "Rogue",
+       8
+      ],
+      [
+       "REP",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "repfitness.com",
+    "titan.fitness",
+    "roguefitness.com"
+   ]
   }
  ]
 }
