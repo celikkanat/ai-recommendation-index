@@ -1,6 +1,294 @@
 {
  "haftalar": [
   {
+   "hafta": "07",
+   "kategoriler": {
+    "Blender": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Vitamix 5200",
+       16
+      ],
+      [
+       "Vitamix VX1",
+       10
+      ],
+      [
+       "Vitamix Ascent X5",
+       10
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Vitamix",
+       56,
+       -4
+      ],
+      [
+       "Ninja",
+       36,
+       -22
+      ],
+      [
+       "NutriBullet",
+       36,
+       2
+      ],
+      [
+       "Hamilton Beach",
+       20,
+       2
+      ],
+      [
+       "Magic Bullet",
+       14,
+       12
+      ]
+     ],
+     "top3_sources": [
+      "rtings.com",
+      "vitamix.com",
+      "hamiltonbeach.com"
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 1.56,
+       "under3": 23,
+       "n": 25,
+       "searches": 2.76,
+       "searched": 25,
+       "search_n": 25
+      },
+      "Gemini": {
+       "brands": 3.0,
+       "under3": 10,
+       "n": 25,
+       "searches": 1.8,
+       "searched": 24,
+       "search_n": 25
+      }
+     },
+     "changes": [
+      "Ninja down: 29 -> 20 of 50 answers.",
+      "AI's most-cited source changed from vitamix.com to rtings.com.",
+      "Gemini model changed this week; see Method."
+     ],
+     "stable": false
+    },
+    "Air fryer": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Cosori TurboBlaze 6-Quart",
+       29
+      ],
+      [
+       "Ninja AF101",
+       15
+      ],
+      [
+       "Instant Vortex Plus 6-Quart",
+       10
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Cosori",
+       60,
+       -2
+      ],
+      [
+       "Ninja",
+       57,
+       -4
+      ],
+      [
+       "Instant",
+       40,
+       -1
+      ],
+      [
+       "Dash",
+       14,
+       -3
+      ],
+      [
+       "Chefman",
+       11,
+       0
+      ]
+     ],
+     "top3_sources": [
+      "rtings.com",
+      "Food Network",
+      "cosori.com"
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 1.8,
+       "under3": 41,
+       "n": 50,
+       "searches": 3.24,
+       "searched": 50,
+       "search_n": 50
+      },
+      "Gemini": {
+       "brands": 2.8,
+       "under3": 16,
+       "n": 50,
+       "searches": 1.74,
+       "searched": 49,
+       "search_n": 50
+      }
+     },
+     "changes": [],
+     "stable": true
+    },
+    "Rice cooker": {
+     "n": 50,
+     "top3_models": [
+      [
+       "Aroma ARC-914SBD",
+       12
+      ],
+      [
+       "Dash Mini",
+       12
+      ],
+      [
+       "Zojirushi NS-ZCC10",
+       12
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Zojirushi",
+       76,
+       2
+      ],
+      [
+       "Aroma",
+       52,
+       14
+      ],
+      [
+       "Cuckoo",
+       18,
+       -6
+      ],
+      [
+       "Dash",
+       14,
+       4
+      ],
+      [
+       "Tiger",
+       10,
+       -6
+      ]
+     ],
+     "top3_sources": [
+      "store.zojirushi.com",
+      "zojirushi.com",
+      "homedepot.com"
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 1.84,
+       "under3": 21,
+       "n": 25,
+       "searches": 3.36,
+       "searched": 25,
+       "search_n": 25
+      },
+      "Gemini": {
+       "brands": 2.52,
+       "under3": 12,
+       "n": 25,
+       "searches": 1.84,
+       "searched": 25,
+       "search_n": 25
+      }
+     },
+     "changes": [],
+     "stable": true
+    },
+    "Phone": {
+     "n": 100,
+     "top3_models": [
+      [
+       "Apple iPhone 18 Pro Max",
+       26
+      ],
+      [
+       "Samsung Galaxy S26 Ultra",
+       23
+      ],
+      [
+       "Apple iPhone 18 Pro",
+       12
+      ]
+     ],
+     "top3_brands": [
+      [
+       "Samsung",
+       75,
+       -5
+      ],
+      [
+       "Apple",
+       74,
+       0
+      ],
+      [
+       "Google",
+       47,
+       2
+      ],
+      [
+       "Motorola",
+       10,
+       1
+      ],
+      [
+       "RedMagic",
+       8,
+       -1
+      ]
+     ],
+     "top3_sources": [
+      "apple.com",
+      "tomsguide.com",
+      "samsung.com"
+     ],
+     "per_answer": {
+      "ChatGPT": {
+       "brands": 2.2,
+       "under3": 32,
+       "n": 50,
+       "searches": 2.74,
+       "searched": 50,
+       "search_n": 50
+      },
+      "Gemini": {
+       "brands": 2.92,
+       "under3": 15,
+       "n": 50,
+       "searches": 1.9,
+       "searched": 49,
+       "search_n": 50
+      }
+     },
+     "changes": [
+      "OnePlus down: 18 -> 7 of 100 answers. (pending next week's confirmation)",
+      "Gemini model changed this week; see Method."
+     ],
+     "stable": false
+    }
+   }
+  },
+  {
    "hafta": "06",
    "kategoriler": {
     "Blender": {
