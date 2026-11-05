@@ -4,6 +4,7 @@
   {
    "ad": "Espresso machines",
    "n": 50,
+   "week": "01",
    "measured": "2026-10-21",
    "per_situation": false,
    "gemini_search": [
@@ -158,6 +159,7 @@
   {
    "ad": "Coffee grinders",
    "n": 50,
+   "week": "01",
    "measured": "2026-10-21",
    "per_situation": false,
    "gemini_search": [
@@ -312,6 +314,7 @@
   {
    "ad": "Air purifiers",
    "n": 50,
+   "week": "01",
    "measured": "2026-10-21",
    "per_situation": false,
    "gemini_search": [
@@ -466,6 +469,7 @@
   {
    "ad": "Wireless earbuds",
    "n": 50,
+   "week": "01",
    "measured": "2026-10-21",
    "per_situation": false,
    "gemini_search": [
@@ -620,6 +624,7 @@
   {
    "ad": "Standing desks",
    "n": 50,
+   "week": "01",
    "measured": "2026-10-21",
    "per_situation": false,
    "gemini_search": [
@@ -774,6 +779,7 @@
   {
    "ad": "Office chairs",
    "n": 50,
+   "week": "01",
    "measured": "2026-10-28",
    "per_situation": false,
    "gemini_search": [
@@ -928,6 +934,7 @@
   {
    "ad": "Walking pads",
    "n": 50,
+   "week": "01",
    "measured": "2026-10-28",
    "per_situation": false,
    "gemini_search": [
@@ -1082,6 +1089,7 @@
   {
    "ad": "Mattresses",
    "n": 50,
+   "week": "01",
    "measured": "2026-10-28",
    "per_situation": false,
    "gemini_search": [
@@ -1236,34 +1244,29 @@
   {
    "ad": "Cookware sets",
    "n": 50,
-   "measured": "2026-10-28",
+   "week": "02",
+   "measured": "2026-11-04",
    "per_situation": false,
    "gemini_search": [
-    15,
+    25,
     25
    ],
    "below_threshold": false,
    "per_answer": {
     "ChatGPT": {
-     "brands": 2.2,
+     "brands": 2.0,
      "under3": 15,
      "n": 25,
-     "searches": 3.12
+     "searches": 3.68
     },
     "Gemini": {
-     "brands": 3.96,
-     "under3": 6,
+     "brands": 3.16,
+     "under3": 11,
      "n": 25,
-     "searches": 1.48
+     "searches": 1.92
     }
    },
    "brands": [
-    [
-     "Tramontina",
-     58,
-     17,
-     12
-    ],
     [
      "All-Clad",
      56,
@@ -1272,21 +1275,27 @@
     ],
     [
      "Cuisinart",
+     46,
+     9,
+     14
+    ],
+    [
+     "Tramontina",
      44,
-     7,
-     15
+     14,
+     8
     ],
     [
      "T-fal",
-     22,
+     18,
      4,
-     7
+     5
     ],
     [
      "Demeyere",
-     20,
+     16,
      5,
-     5
+     3
     ]
    ],
    "situations": [
@@ -1296,15 +1305,15 @@
      [
       [
        "Tramontina",
-       9
+       7
       ],
       [
        "Cuisinart",
-       5
+       4
       ],
       [
        "T-fal",
-       4
+       3
       ]
      ]
     ],
@@ -1317,12 +1326,12 @@
        8
       ],
       [
-       "Tramontina",
+       "Cuisinart",
        6
       ],
       [
-       "Cuisinart",
-       5
+       "Tramontina",
+       6
       ]
      ]
     ],
@@ -1335,11 +1344,11 @@
        10
       ],
       [
-       "Tramontina",
-       8
+       "Cuisinart",
+       6
       ],
       [
-       "Cuisinart",
+       "GreenPan",
        4
       ]
      ]
@@ -1350,15 +1359,15 @@
      [
       [
        "Cuisinart",
-       8
-      ],
-      [
-       "T-fal",
        7
       ],
       [
-       "Tramontina",
+       "T-fal",
        6
+      ],
+      [
+       "Tramontina",
+       5
       ]
      ]
     ],
@@ -1367,29 +1376,34 @@
      10,
      [
       [
-       "Demeyere",
-       10
-      ],
-      [
        "All-Clad",
        8
       ],
       [
+       "Demeyere",
+       8
+      ],
+      [
        "Hestan",
-       3
+       2
       ]
      ]
     ]
    ],
    "sources": [
     "goodhousekeeping.com",
-    "all-clad.com",
-    "americastestkitchen.com"
+    "cuisinart.com",
+    "all-clad.com"
+   ],
+   "first_measured": "2026-10-28",
+   "models_changed": [
+    "Gemini"
    ]
   },
   {
    "ad": "Portable power stations",
    "n": 50,
+   "week": "01",
    "measured": "2026-10-28",
    "per_situation": false,
    "gemini_search": [
@@ -1538,6 +1552,7 @@
   {
    "ad": "Power racks",
    "n": 50,
+   "week": "01",
    "measured": "2026-10-28",
    "per_situation": false,
    "gemini_search": [
@@ -1687,6 +1702,936 @@
     "repfitness.com",
     "titan.fitness",
     "roguefitness.com"
+   ]
+  },
+  {
+   "ad": "Rowing machines",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-04",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.96,
+     "under3": 15,
+     "n": 25,
+     "searches": 3.0
+    },
+    "Gemini": {
+     "brands": 2.48,
+     "under3": 11,
+     "n": 25,
+     "searches": 1.92
+    }
+   },
+   "brands": [
+    [
+     "Concept2",
+     46,
+     13,
+     10
+    ],
+    [
+     "Hydrow",
+     40,
+     8,
+     12
+    ],
+    [
+     "Ergatta",
+     28,
+     4,
+     10
+    ],
+    [
+     "WaterRower",
+     26,
+     6,
+     7
+    ],
+    [
+     "Merach",
+     18,
+     6,
+     3
+    ]
+   ],
+   "situations": [
+    [
+     "Full-body workout, easy on the knees",
+     10,
+     [
+      [
+       "Concept2",
+       10
+      ],
+      [
+       "Hydrow",
+       6
+      ],
+      [
+       "Ergatta",
+       2
+      ]
+     ]
+    ],
+    [
+     "Apartment, quiet, stores upright",
+     10,
+     [
+      [
+       "Hydrow",
+       7
+      ],
+      [
+       "Echelon",
+       4
+      ],
+      [
+       "Merach",
+       4
+      ]
+     ]
+    ],
+    [
+     "Serious training, splits, online racing",
+     10,
+     [
+      [
+       "Concept2",
+       10
+      ],
+      [
+       "Ergatta",
+       5
+      ],
+      [
+       "Hydrow",
+       3
+      ]
+     ]
+    ],
+    [
+     "$500 max",
+     10,
+     [
+      [
+       "Sunny Health & Fitness",
+       8
+      ],
+      [
+       "Merach",
+       5
+      ],
+      [
+       "Stamina",
+       4
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, looks good in the living room, lasts",
+     10,
+     [
+      [
+       "WaterRower",
+       8
+      ],
+      [
+       "Ergatta",
+       6
+      ],
+      [
+       "Hydrow",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "concept2.com",
+    "hydrow.com",
+    "waterrower.com"
+   ]
+  },
+  {
+   "ad": "Robot vacuums",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-04",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.76,
+     "under3": 18,
+     "n": 25,
+     "searches": 4.12
+    },
+    "Gemini": {
+     "brands": 2.52,
+     "under3": 11,
+     "n": 25,
+     "searches": 1.84
+    }
+   },
+   "brands": [
+    [
+     "Roborock",
+     86,
+     19,
+     24
+    ],
+    [
+     "Dreame",
+     50,
+     11,
+     14
+    ],
+    [
+     "Ecovacs",
+     12,
+     2,
+     4
+    ],
+    [
+     "iRobot",
+     12,
+     3,
+     3
+    ],
+    [
+     "MOVA",
+     10,
+     1,
+     4
+    ]
+   ],
+   "situations": [
+    [
+     "Two dogs that shed a lot",
+     10,
+     [
+      [
+       "Roborock",
+       7
+      ],
+      [
+       "Dreame",
+       6
+      ],
+      [
+       "MOVA",
+       5
+      ]
+     ]
+    ],
+    [
+     "Hardwood with a few rugs, mops too",
+     10,
+     [
+      [
+       "Roborock",
+       10
+      ],
+      [
+       "Dreame",
+       3
+      ],
+      [
+       "Ecovacs",
+       3
+      ]
+     ]
+    ],
+    [
+     "Empties itself",
+     10,
+     [
+      [
+       "Roborock",
+       9
+      ],
+      [
+       "Dreame",
+       2
+      ],
+      [
+       "Ecovacs",
+       2
+      ]
+     ]
+    ],
+    [
+     "$300 max",
+     10,
+     [
+      [
+       "Dreame",
+       9
+      ],
+      [
+       "Roborock",
+       8
+      ],
+      [
+       "Tapo",
+       3
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, least babysitting",
+     10,
+     [
+      [
+       "Roborock",
+       9
+      ],
+      [
+       "Dreame",
+       5
+      ],
+      [
+       "iRobot",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "roborock.com",
+    "vacuumwars.com",
+    "rtings.com"
+   ]
+  },
+  {
+   "ad": "3D printers",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-04",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.68,
+     "under3": 21,
+     "n": 25,
+     "searches": 4.0
+    },
+    "Gemini": {
+     "brands": 2.28,
+     "under3": 14,
+     "n": 25,
+     "searches": 2.0
+    }
+   },
+   "brands": [
+    [
+     "Bambu Lab",
+     90,
+     22,
+     23
+    ],
+    [
+     "Creality",
+     14,
+     3,
+     4
+    ],
+    [
+     "Flashforge",
+     14,
+     1,
+     6
+    ],
+    [
+     "Snapmaker",
+     14,
+     3,
+     4
+    ],
+    [
+     "Elegoo",
+     12,
+     2,
+     4
+    ]
+   ],
+   "situations": [
+    [
+     "Complete beginner, works out of the box",
+     10,
+     [
+      [
+       "Bambu Lab",
+       10
+      ],
+      [
+       "Creality",
+       3
+      ],
+      [
+       "Elegoo",
+       1
+      ]
+     ]
+    ],
+    [
+     "Toys and school project parts for the kids",
+     10,
+     [
+      [
+       "Bambu Lab",
+       10
+      ],
+      [
+       "Elegoo",
+       2
+      ],
+      [
+       "Flashforge",
+       2
+      ]
+     ]
+    ],
+    [
+     "Several colors at once",
+     10,
+     [
+      [
+       "Bambu Lab",
+       10
+      ],
+      [
+       "Snapmaker",
+       7
+      ],
+      [
+       "Prusa",
+       4
+      ]
+     ]
+    ],
+    [
+     "$300 max",
+     10,
+     [
+      [
+       "Bambu Lab",
+       10
+      ],
+      [
+       "Flashforge",
+       5
+      ],
+      [
+       "Creality",
+       3
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, small business, functional parts",
+     10,
+     [
+      [
+       "Bambu Lab",
+       5
+      ],
+      [
+       "Markforged",
+       4
+      ],
+      [
+       "Stratasys",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "bambulab.com",
+    "myshopify.com",
+    "tomshardware.com"
+   ]
+  },
+  {
+   "ad": "Pizza ovens",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-04",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.2,
+     "under3": 15,
+     "n": 25,
+     "searches": 3.2
+    },
+    "Gemini": {
+     "brands": 2.48,
+     "under3": 13,
+     "n": 25,
+     "searches": 2.24
+    }
+   },
+   "brands": [
+    [
+     "Ooni",
+     66,
+     17,
+     16
+    ],
+    [
+     "Gozney",
+     42,
+     9,
+     12
+    ],
+    [
+     "Breville",
+     12,
+     2,
+     4
+    ],
+    [
+     "Alfa",
+     10,
+     4,
+     1
+    ],
+    [
+     "Ninja",
+     10,
+     5,
+     0
+    ]
+   ],
+   "situations": [
+    [
+     "Neapolitan-style pizza in the backyard",
+     10,
+     [
+      [
+       "Gozney",
+       9
+      ],
+      [
+       "Ooni",
+       9
+      ],
+      [
+       "Solo Stove",
+       1
+      ]
+     ]
+    ],
+    [
+     "Apartment, indoors in the kitchen",
+     10,
+     [
+      [
+       "Ooni",
+       10
+      ],
+      [
+       "Breville",
+       6
+      ],
+      [
+       "Chefman",
+       3
+      ]
+     ]
+    ],
+    [
+     "Camping and tailgates",
+     10,
+     [
+      [
+       "Gozney",
+       9
+      ],
+      [
+       "Ooni",
+       7
+      ],
+      [
+       "Solo Stove",
+       3
+      ]
+     ]
+    ],
+    [
+     "$300 max",
+     10,
+     [
+      [
+       "Ooni",
+       7
+      ],
+      [
+       "Ninja",
+       5
+      ],
+      [
+       "VEVOR",
+       3
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, outdoor-kitchen centerpiece",
+     10,
+     [
+      [
+       "Alfa",
+       5
+      ],
+      [
+       "Chicago Brick Oven",
+       4
+      ],
+      [
+       "Gozney",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "ooni.com",
+    "gozney.com",
+    "alfaforni.com"
+   ]
+  },
+  {
+   "ad": "E-bikes",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-04",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.12,
+     "under3": 14,
+     "n": 25,
+     "searches": 3.92
+    },
+    "Gemini": {
+     "brands": 2.68,
+     "under3": 10,
+     "n": 25,
+     "searches": 1.92
+    }
+   },
+   "brands": [
+    [
+     "Aventon",
+     54,
+     9,
+     18
+    ],
+    [
+     "Lectric",
+     36,
+     7,
+     11
+    ],
+    [
+     "Specialized",
+     32,
+     10,
+     6
+    ],
+    [
+     "Ride1Up",
+     22,
+     3,
+     8
+    ],
+    [
+     "Trek",
+     20,
+     8,
+     2
+    ]
+   ],
+   "situations": [
+    [
+     "Commute about 10 miles each way",
+     10,
+     [
+      [
+       "Aventon",
+       8
+      ],
+      [
+       "Velotric",
+       4
+      ],
+      [
+       "Specialized",
+       3
+      ]
+     ]
+    ],
+    [
+     "Groceries and a kid on the back",
+     10,
+     [
+      [
+       "Aventon",
+       7
+      ],
+      [
+       "Tern",
+       7
+      ],
+      [
+       "Lectric",
+       6
+      ]
+     ]
+    ],
+    [
+     "Hilly city",
+     10,
+     [
+      [
+       "Aventon",
+       5
+      ],
+      [
+       "Ride1Up",
+       4
+      ],
+      [
+       "Specialized",
+       4
+      ]
+     ]
+    ],
+    [
+     "$1,500 max",
+     10,
+     [
+      [
+       "Lectric",
+       9
+      ],
+      [
+       "Aventon",
+       7
+      ],
+      [
+       "Ride1Up",
+       5
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, rides like a normal bike, lasts",
+     10,
+     [
+      [
+       "Specialized",
+       8
+      ],
+      [
+       "Trek",
+       6
+      ],
+      [
+       "Gazelle",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "aventon.com",
+    "specialized.com",
+    "lectricebikes.com"
+   ]
+  },
+  {
+   "ad": "Electric scooters",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-04",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.96,
+     "under3": 17,
+     "n": 25,
+     "searches": 3.24
+    },
+    "Gemini": {
+     "brands": 3.12,
+     "under3": 9,
+     "n": 25,
+     "searches": 1.88
+    }
+   },
+   "brands": [
+    [
+     "Segway",
+     64,
+     16,
+     16
+    ],
+    [
+     "NIU",
+     54,
+     15,
+     12
+    ],
+    [
+     "Nami",
+     16,
+     4,
+     4
+    ],
+    [
+     "E-TWOW",
+     12,
+     2,
+     4
+    ],
+    [
+     "Navee",
+     12,
+     3,
+     3
+    ]
+   ],
+   "situations": [
+    [
+     "Last mile from the train station",
+     10,
+     [
+      [
+       "NIU",
+       9
+      ],
+      [
+       "Segway",
+       5
+      ],
+      [
+       "Unagi",
+       3
+      ]
+     ]
+    ],
+    [
+     "Rider about 230 lbs",
+     10,
+     [
+      [
+       "Segway",
+       7
+      ],
+      [
+       "VMAX",
+       5
+      ],
+      [
+       "Inmotion",
+       3
+      ]
+     ]
+    ],
+    [
+     "Carried up the stairs to an apartment",
+     10,
+     [
+      [
+       "NIU",
+       10
+      ],
+      [
+       "E-TWOW",
+       5
+      ],
+      [
+       "Levy",
+       4
+      ]
+     ]
+    ],
+    [
+     "$500 max",
+     10,
+     [
+      [
+       "Segway",
+       10
+      ],
+      [
+       "NIU",
+       6
+      ],
+      [
+       "Navee",
+       5
+      ]
+     ]
+    ],
+    [
+     "Budget no issue, long range, smooth ride",
+     10,
+     [
+      [
+       "Segway",
+       8
+      ],
+      [
+       "Nami",
+       7
+      ],
+      [
+       "Kaabo",
+       2
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "niu.com",
+    "segway.com",
+    "apolloscooters.co"
    ]
   }
  ]
