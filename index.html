@@ -233,6 +233,14 @@ function renderCategory(name, d) {
       items.map(t => `<li>${escapeHtml(t)}</li>`).join('') + '</ul>';
     div.appendChild(ch);
   }
+  if (d.followups && d.followups.length) {
+    // last week's "pending next week's confirmation" items, closed this week (shown even when nothing else changed)
+    const fu = document.createElement('div');
+    fu.className = 'changes followups';
+    fu.innerHTML = '<h3>Follow-up from last week</h3><ul>' +
+      d.followups.map(t => `<li>${escapeHtml(t)}</li>`).join('') + '</ul>';
+    div.appendChild(fu);
+  }
   return div;
 }
 

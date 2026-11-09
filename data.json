@@ -279,7 +279,10 @@
       }
      },
      "changes": [],
-     "stable": true
+     "stable": true,
+     "followups": [
+      "Confirmed: OnePlus stayed down (18 -> 7 of 100 last week, 9 this week)."
+     ]
     }
    }
   },
