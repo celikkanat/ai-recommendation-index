@@ -1,0 +1,752 @@
+{
+ "updated": "2026-11-09",
+ "cases": [
+  {
+   "id": "chair",
+   "category": "Office chairs",
+   "card": "index.html#onetime",
+   "measured": "October 28, 2026",
+   "raw": "data/hafta-01-ofiskoltugu-ham.jsonl",
+   "kategori": null,
+   "question": "Which office chair should I buy? Give me a few specific models.",
+   "profiles": {
+    "P1": "works from home 8+ hours a day",
+    "P2": "6'4\" and 250 lbs",
+    "P3": "lower back gets sore",
+    "P4": "$300 max",
+    "P5": "budget isn't an issue, 10+ years"
+   },
+   "groups": [
+    {
+     "key": "main",
+     "label": "mentioned or suggested a used or refurbished chair",
+     "answers": [
+      {
+       "sira": 2,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "Pro Tip: The Refurbished Market (Get $1,400 chairs for $300–$600)"
+      },
+      {
+       "sira": 4,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "Pro Tip for Buying in the US: The Refurbished Market"
+      },
+      {
+       "sira": 6,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "Buy Refurbished/Remanufactured: Brand new, a Steelcase Leap V2 costs around $1,000–$1,300."
+      },
+      {
+       "sira": 8,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "Price: ~$1,000–$1,300 new (or ~$350–$500 refurbished)"
+      },
+      {
+       "sira": 10,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "Because both of these high-end chairs retail for $1,200–$1,800+ brand new, a popular route in the US is buying certified refurbished or gently used models from reputable office liquidators (like Crandall Office …"
+      },
+      {
+       "sira": 12,
+       "model": "Gemini",
+       "profil": "P2",
+       "quote": "Buying Remanufactured/Used (To save 50%+): High-end chairs like the Steelcase Gesture, Haworth Fern, or Herman Miller Aeron Size C retail for $1,200–$1,800 new."
+      },
+      {
+       "sira": 18,
+       "model": "Gemini",
+       "profil": "P2",
+       "quote": "Consider Buying Remanufactured/Refurbished: High-end models like the Herman Miller Aeron Size C or Steelcase Leap Plus retail for $1,400–$1,800 new, but companies like Crandall Office Furniture or BTOD sell fully …"
+      },
+      {
+       "sira": 22,
+       "model": "Gemini",
+       "profil": "P3",
+       "quote": "Steelcase Leap V2 (Approx. $1,000–$1,300 new; $400–$600 refurbished)"
+      },
+      {
+       "sira": 24,
+       "model": "Gemini",
+       "profil": "P3",
+       "quote": "High-End / Premium ($1,000+ new | $500–$600 refurbished)"
+      },
+      {
+       "sira": 28,
+       "model": "Gemini",
+       "profil": "P3",
+       "quote": "Price: ~$1,000–$1,300 (New) | ~$400–$600 (Refurbished/Used)"
+      },
+      {
+       "sira": 30,
+       "model": "Gemini",
+       "profil": "P3",
+       "quote": "Budget Tip: Brand new, it costs ~$1,000–$1,300, but in the US, you can easily buy high-quality remanufactured/refurbished models with warranties (from sellers like Crandall Office or BTOD) for around $500–$600."
+      },
+      {
+       "sira": 32,
+       "model": "Gemini",
+       "profil": "P4",
+       "quote": "Offices liquidate high-end furniture constantly, allowing you to easily pick up a used Steelcase Leap V2, Steelcase Amia, or Herman Miller Mirra 1 for $200–$300."
+      },
+      {
+       "sira": 34,
+       "model": "Gemini",
+       "profil": "P4",
+       "quote": "Pro-Tip: The Secondhand / Refurbished Route"
+      },
+      {
+       "sira": 36,
+       "model": "Gemini",
+       "profil": "P4",
+       "quote": "If you are open to buying used/refurbished locally:"
+      },
+      {
+       "sira": 38,
+       "model": "Gemini",
+       "profil": "P4",
+       "quote": "Pro-Tip: The Secondhand / Liquidator Route"
+      }
+     ]
+    }
+   ],
+   "featured": [
+    2,
+    32,
+    30
+   ],
+   "excluded": [
+    {
+     "sira": 3,
+     "kind": "other",
+     "why": "'clearance' means knee clearance"
+    },
+    {
+     "sira": 11,
+     "kind": "other",
+     "why": "'clearance' means seat-depth clearance"
+    },
+    {
+     "sira": 40,
+     "kind": "other",
+     "why": "'outlets' means review outlets"
+    },
+    {
+     "sira": 44,
+     "why": "mentions office liquidators only to warn against them; advises buying from the maker or an authorized dealer",
+     "kind": "other"
+    }
+   ]
+  },
+  {
+   "id": "phone",
+   "category": "Phones",
+   "card": "index.html#categories",
+   "measured": "November 8, 2026 (week 8 of the weekly index)",
+   "raw": "data/hafta-08-ham.jsonl",
+   "kategori": "telefon_us",
+   "question": "Ten buyer situations, for example \"my budget is $300 max, which phone makes sense\".",
+   "profiles": {
+    "P1": "$300 max",
+    "P2": "around $500",
+    "P3": "budget isn't an issue",
+    "P4": "camera matters most",
+    "P5": "battery life matters most",
+    "P6": "plays games, needs to be fast",
+    "P7": "for my elderly dad",
+    "P8": "first phone for my 12-year-old",
+    "P9": "iPhone or Android?",
+    "P10": "upgrading after 4 years"
+   },
+   "groups": [
+    {
+     "key": "main",
+     "label": "mentioned or suggested a refurbished or used phone",
+     "answers": [
+      {
+       "sira": 35,
+       "model": "ChatGPT",
+       "profil": "P2",
+       "quote": "Refurbished iPhone 16e — for iOS."
+      },
+      {
+       "sira": 63,
+       "model": "ChatGPT",
+       "profil": "P1",
+       "quote": "Google Pixel 8a (used/refurbished, unlocked): Around $249 in recent Swappa sales."
+      },
+      {
+       "sira": 75,
+       "model": "ChatGPT",
+       "profil": "P2",
+       "quote": "If you’d rather have an iPhone, look at Apple’s refurbished iPhone 16e; it has been listed from $419 directly through Apple, though stock and price can vary."
+      },
+      {
+       "sira": 137,
+       "model": "ChatGPT",
+       "profil": "P8",
+       "quote": "If you’re an iPhone family: look at the iPhone 17e, but at Apple’s listed $699, consider a reputable refurbished or previous-generation iPhone if you’d rather spend less."
+      },
+      {
+       "sira": 175,
+       "model": "ChatGPT",
+       "profil": "P1",
+       "quote": "My default pick: a refurbished, unlocked Google Pixel 8a—if you’re okay buying refurbished."
+      },
+      {
+       "sira": 198,
+       "model": "ChatGPT",
+       "profil": "P8",
+       "quote": "My default pick: a recent refurbished iPhone—not a flagship—if you use iPhones at home."
+      },
+      {
+       "sira": 36,
+       "model": "Gemini",
+       "profil": "P8",
+       "quote": "The Devices: A refused/used iPhone (like an iPhone SE or iPhone 12/13) or an entry-level Android phone (like a Samsung Galaxy A-series)."
+      },
+      {
+       "sira": 40,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "With a hard maximum budget of $300 in the US, you actually have some great choices depending on whether you prefer buying brand new with reliable software support, or going refurbished to get much higher-end hardware …"
+      },
+      {
+       "sira": 79,
+       "model": "Gemini",
+       "profil": "P8",
+       "quote": "Tip: You don't need a brand-new flagship; refurbished or mid-range is ideal for a 12-year-old."
+      },
+      {
+       "sira": 94,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "Best for Photography (Refurbished Flagship): Google Pixel (e.g., Pixel 7a or Pixel 8a - Refurbished)"
+      },
+      {
+       "sira": 100,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "With a strict $300 maximum budget in the US market, you can get a surprisingly capable phone—especially if you look at reliable new Motorola/Samsung models or a well-maintained refurbished device."
+      },
+      {
+       "sira": 118,
+       "model": "Gemini",
+       "profil": "P8",
+       "quote": "Apple iPhone SE or an entry-level iPhone (iPhone 17e or a used iPhone)"
+      },
+      {
+       "sira": 134,
+       "model": "Gemini",
+       "profil": "P2",
+       "quote": "The Value Wildcard: A Gently Used/Refurbished Flagship"
+      },
+      {
+       "sira": 176,
+       "model": "Gemini",
+       "profil": "P2",
+       "quote": "Alternative Idea: A Gently Used/Refurbished Flagship (approx. $400 - $500)"
+      },
+      {
+       "sira": 199,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "With a strict $300 maximum budget in the US, you actually have some great options depending on whether you prefer buying brand-new Android budget workhorses or gently used/refurbished former mid-rangers that give you …"
+      }
+     ]
+    }
+   ],
+   "featured": [
+    175,
+    198,
+    79
+   ],
+   "excluded": [
+    {
+     "sira": 5,
+     "kind": "other",
+     "why": "'outlet' means a review outlet or a wall outlet"
+    },
+    {
+     "sira": 7,
+     "kind": "other",
+     "why": "carrier trade-in deal toward a new phone"
+    },
+    {
+     "sira": 50,
+     "kind": "other",
+     "why": "mentions the resale value of a new phone"
+    },
+    {
+     "sira": 52,
+     "kind": "other",
+     "why": "'used' in another sense (used with other carriers)"
+    },
+    {
+     "sira": 62,
+     "kind": "other",
+     "why": "'outlet' means a review outlet or a wall outlet"
+    },
+    {
+     "sira": 74,
+     "kind": "other",
+     "why": "mentions resale and trade-in value of a new phone"
+    },
+    {
+     "sira": 89,
+     "kind": "other",
+     "why": "mentions the resale value of a new phone"
+    },
+    {
+     "sira": 92,
+     "kind": "other",
+     "why": "carrier trade-in deal toward a new phone"
+    },
+    {
+     "sira": 96,
+     "kind": "other",
+     "why": "'outlet' means a review outlet or a wall outlet"
+    },
+    {
+     "sira": 120,
+     "kind": "other",
+     "why": "mentions the resale value of a new phone"
+    },
+    {
+     "sira": 122,
+     "kind": "other",
+     "why": "carrier trade-in deal toward a new phone; 'used to iPhone'"
+    },
+    {
+     "sira": 138,
+     "kind": "other",
+     "why": "carrier trade-in deal toward a new phone"
+    },
+    {
+     "sira": 158,
+     "kind": "other",
+     "why": "'outlet' means a review outlet or a wall outlet"
+    },
+    {
+     "sira": 161,
+     "kind": "other",
+     "why": "'used' in another sense (used to Android or iPhone)"
+    },
+    {
+     "sira": 166,
+     "kind": "other",
+     "why": "mentions the resale value of a new phone"
+    },
+    {
+     "sira": 169,
+     "kind": "other",
+     "why": "mentions the resale value of a new phone"
+    },
+    {
+     "sira": 188,
+     "kind": "other",
+     "why": "mentions the resale value of a new phone"
+    },
+    {
+     "sira": 192,
+     "kind": "other",
+     "why": "mentions the resale value of a new phone"
+    },
+    {
+     "sira": 196,
+     "kind": "other",
+     "why": "'used' in another sense (most-used contacts)"
+    }
+   ]
+  },
+  {
+   "id": "cookware",
+   "category": "Cookware sets",
+   "card": "index.html#onetime",
+   "measured": "November 4, 2026 (second reading)",
+   "raw": "data/hafta-02-tencere-ham.jsonl",
+   "kategori": null,
+   "question": "Which cookware set should I buy? Give me a few specific models.",
+   "profiles": {
+    "P1": "first apartment, learning to cook",
+    "P2": "no more nonstick coatings",
+    "P3": "induction cooktop",
+    "P4": "$200 max",
+    "P5": "budget isn't an issue, decades"
+   },
+   "groups": [
+    {
+     "key": "main",
+     "label": "suggested buying single pieces instead of a set",
+     "answers": [
+      {
+       "sira": 8,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "Many home cooks prefer buying just a 10-inch stainless steel skillet, a nonstick frying pan for eggs, and a 3-quart saucepan individually to save counter space and money!"
+      },
+      {
+       "sira": 32,
+       "model": "Gemini",
+       "profil": "P4",
+       "quote": "Many experienced cooks recommend avoiding large sets entirely if you want maximum quality for $200. Instead, you can piece together a high-performing hybrid setup:"
+      },
+      {
+       "sira": 42,
+       "model": "Gemini",
+       "profil": "P5",
+       "quote": "Many veteran home cooks recommend buying pieces à la carte rather than a massive pre-packaged set, because sets often include filler items you will rarely use (like tiny saucepans or duplicate lids)."
+      },
+      {
+       "sira": 44,
+       "model": "Gemini",
+       "profil": "P5",
+       "quote": "What to bundle: Because Smithey sells their heirloom pieces individually rather than in a standard box set, you can curate the ultimate lifetime kitchen suite:"
+      },
+      {
+       "sira": 46,
+       "model": "Gemini",
+       "profil": "P5",
+       "quote": "If you want the ultimate configuration without compromise, buy the core pieces individually: the All-Clad D3 12-inch Fry Pan, the 3-quart Saute Pan, and the 4-quart Saucepan, alongside a Le Creuset Enameled Cast Iron …"
+      }
+     ]
+    }
+   ],
+   "featured": [
+    42,
+    32
+   ],
+   "excluded": [
+    {
+     "sira": 1,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 3,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 4,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 5,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 6,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 7,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 9,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 10,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 11,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 14,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 21,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 23,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 24,
+     "why": "'single skillet' appears only in a magnet test tip for induction",
+     "kind": "other"
+    },
+    {
+     "sira": 25,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 27,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 33,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 39,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 47,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    }
+   ]
+  },
+  {
+   "id": "cookware_first",
+   "context_of": "cookware",
+   "category": "Cookware sets",
+   "card": "index.html#onetime",
+   "measured": "October 28, 2026 (first reading)",
+   "raw": "data/hafta-01-tencere-ham.jsonl",
+   "kategori": null,
+   "question": "Same 50 questions, one week earlier.",
+   "profiles": {
+    "P1": "first apartment, learning to cook",
+    "P2": "no more nonstick coatings",
+    "P3": "induction cooktop",
+    "P4": "$200 max",
+    "P5": "budget isn't an issue, decades"
+   },
+   "groups": [
+    {
+     "key": "main",
+     "label": "suggested buying single pieces instead of a set",
+     "answers": [
+      {
+       "sira": 8,
+       "model": "Gemini",
+       "profil": "P1",
+       "quote": "Alternative Choice: The \"A La Carte\" Starter Kit"
+      },
+      {
+       "sira": 17,
+       "model": "ChatGPT",
+       "profil": "P2",
+       "quote": "Bottom line: I’d buy the Tramontina unless you already know you want to invest in All-Clad. If you mainly need a few basics, buying individual pans can also avoid paying for pieces you won’t use."
+      }
+     ]
+    }
+   ],
+   "featured": [],
+   "excluded": [
+    {
+     "sira": 1,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 4,
+     "why": "'individual pieces' refers to how sets count lids",
+     "kind": "other"
+    },
+    {
+     "sira": 5,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 6,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 7,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 9,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 11,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 12,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 13,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 14,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 20,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 21,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 23,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 24,
+     "why": "magnet test tip for induction",
+     "kind": "other"
+    },
+    {
+     "sira": 25,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 27,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 28,
+     "why": "magnet test tip for induction",
+     "kind": "other"
+    },
+    {
+     "sira": 35,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 41,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 44,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    },
+    {
+     "sira": 48,
+     "kind": "added_piece",
+     "why": "keeps the set and suggests adding one extra pan or skillet; not counted as a redirect"
+    }
+   ]
+  },
+  {
+   "id": "rowing",
+   "category": "Rowing machines",
+   "card": "index.html#onetime",
+   "measured": "November 4, 2026",
+   "raw": "data/hafta-01-kurek-ham.jsonl",
+   "kategori": null,
+   "question": "Which rowing machine should I buy? Give me a few specific models.",
+   "profiles": {
+    "P1": "full-body workout, easy on knees",
+    "P2": "quiet, stands upright in a corner",
+    "P3": "tracks splits, races online",
+    "P4": "$500 max",
+    "P5": "budget isn't an issue, looks good"
+   },
+   "groups": [
+    {
+     "key": "main",
+     "label": "suggested a used rower",
+     "answers": [
+      {
+       "sira": 35,
+       "model": "ChatGPT",
+       "profil": "P4",
+       "quote": "If you want serious rowing training, look for a used Concept2 RowErg under $500; otherwise, I’d choose the MERACH."
+      }
+     ]
+    }
+   ],
+   "featured": [
+    35
+   ],
+   "excluded": [
+    {
+     "sira": 1,
+     "kind": "other",
+     "why": "'used' in another sense (used without the plan)"
+    },
+    {
+     "sira": 4,
+     "kind": "other",
+     "why": "mentions the resale value of a new rower"
+    },
+    {
+     "sira": 7,
+     "kind": "other",
+     "why": "'used' in another sense (used without a membership)"
+    },
+    {
+     "sira": 8,
+     "kind": "other",
+     "why": "mentions the resale value of a new rower"
+    },
+    {
+     "sira": 10,
+     "kind": "other",
+     "why": "'used' in another sense (used in gyms); mentions resale value of a new rower"
+    },
+    {
+     "sira": 12,
+     "kind": "other",
+     "why": "'clearance' means room clearance"
+    },
+    {
+     "sira": 17,
+     "kind": "other",
+     "why": "'clearance' means room clearance"
+    },
+    {
+     "sira": 18,
+     "kind": "other",
+     "why": "'clearance' means room clearance"
+    },
+    {
+     "sira": 22,
+     "kind": "other",
+     "why": "'used' in another sense (split times used across the globe)"
+    },
+    {
+     "sira": 30,
+     "kind": "other",
+     "why": "mentions the resale value of a new rower"
+    },
+    {
+     "sira": 43,
+     "kind": "other",
+     "why": "'clearance' means room clearance"
+    }
+   ]
+  }
+ ]
+}
