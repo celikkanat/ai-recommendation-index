@@ -2633,6 +2633,781 @@
     "segway.com",
     "apolloscooters.co"
    ]
+  },
+  {
+   "ad": "Robotic pool cleaners",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-11",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.8,
+     "under3": 19,
+     "n": 25,
+     "searches": 4.08
+    },
+    "Gemini": {
+     "brands": 1.64,
+     "under3": 21,
+     "n": 25,
+     "searches": 2.12
+    }
+   },
+   "brands": [
+    [
+     "Dolphin",
+     70,
+     14,
+     21
+    ],
+    [
+     "Aiper",
+     32,
+     7,
+     9
+    ],
+    [
+     "Beatbot",
+     26,
+     8,
+     5
+    ],
+    [
+     "Polaris",
+     22,
+     9,
+     2
+    ],
+    [
+     "WYBOT",
+     8,
+     3,
+     1
+    ]
+   ],
+   "situations": [
+    [
+     "In-ground pool, wants cordless",
+     10,
+     [
+      [
+       "Beatbot",
+       8
+      ],
+      [
+       "Aiper",
+       5
+      ],
+      [
+       "Dolphin",
+       5
+      ]
+     ]
+    ],
+    [
+     "Above-ground pool, $300 max",
+     10,
+     [
+      [
+       "Aiper",
+       10
+      ],
+      [
+       "WYBOT",
+       3
+      ],
+      [
+       "Bublue",
+       2
+      ]
+     ]
+    ],
+    [
+     "Dirty waterline, cleans walls too",
+     10,
+     [
+      [
+       "Dolphin",
+       8
+      ],
+      [
+       "Polaris",
+       6
+      ],
+      [
+       "Beatbot",
+       2
+      ]
+     ]
+    ],
+    [
+     "Pool under trees, fills with leaves",
+     10,
+     [
+      [
+       "Dolphin",
+       10
+      ],
+      [
+       "Beatbot",
+       1
+      ],
+      [
+       "Betta",
+       1
+      ]
+     ]
+    ],
+    [
+     "Large in-ground pool, about 40 ft",
+     10,
+     [
+      [
+       "Dolphin",
+       10
+      ],
+      [
+       "Beatbot",
+       2
+      ],
+      [
+       "Clear",
+       1
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "maytronics.com",
+    "beatbot.com",
+    "polarispool.com"
+   ]
+  },
+  {
+   "ad": "Pellet grills",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-11",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.08,
+     "under3": 14,
+     "n": 25,
+     "searches": 3.04
+    },
+    "Gemini": {
+     "brands": 2.92,
+     "under3": 9,
+     "n": 25,
+     "searches": 2.04
+    }
+   },
+   "brands": [
+    [
+     "Traeger",
+     56,
+     11,
+     17
+    ],
+    [
+     "recteq",
+     42,
+     11,
+     10
+    ],
+    [
+     "Camp Chef",
+     32,
+     4,
+     12
+    ],
+    [
+     "Weber",
+     30,
+     9,
+     6
+    ],
+    [
+     "Pit Boss",
+     28,
+     6,
+     8
+    ]
+   ],
+   "situations": [
+    [
+     "Wants to sear steaks too",
+     10,
+     [
+      [
+       "Weber",
+       10
+      ],
+      [
+       "Camp Chef",
+       4
+      ],
+      [
+       "recteq",
+       4
+      ]
+     ]
+    ],
+    [
+     "$600 max",
+     10,
+     [
+      [
+       "Pit Boss",
+       10
+      ],
+      [
+       "Traeger",
+       7
+      ],
+      [
+       "recteq",
+       5
+      ]
+     ]
+    ],
+    [
+     "Control and check temperature from the phone",
+     10,
+     [
+      [
+       "Traeger",
+       9
+      ],
+      [
+       "Camp Chef",
+       5
+      ],
+      [
+       "Weber",
+       5
+      ]
+     ]
+    ],
+    [
+     "Big groups, two or three briskets at once",
+     10,
+     [
+      [
+       "recteq",
+       8
+      ],
+      [
+       "Camp Chef",
+       5
+      ],
+      [
+       "Yoder Smokers",
+       4
+      ]
+     ]
+    ],
+    [
+     "Cold climate, smoking through winter",
+     10,
+     [
+      [
+       "Traeger",
+       9
+      ],
+      [
+       "Yoder Smokers",
+       8
+      ],
+      [
+       "Grilla Grills",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "recteq.com",
+    "traeger.com",
+    "weber.com"
+   ]
+  },
+  {
+   "ad": "Golf launch monitors",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-11",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.28,
+     "under3": 13,
+     "n": 25,
+     "searches": 3.16
+    },
+    "Gemini": {
+     "brands": 3.2,
+     "under3": 7,
+     "n": 25,
+     "searches": 2.08
+    }
+   },
+   "brands": [
+    [
+     "Foresight",
+     52,
+     13,
+     13
+    ],
+    [
+     "Uneekor",
+     50,
+     14,
+     11
+    ],
+    [
+     "Bushnell",
+     30,
+     0,
+     15
+    ],
+    [
+     "Garmin",
+     24,
+     7,
+     5
+    ],
+    [
+     "FlightScope",
+     22,
+     4,
+     7
+    ]
+   ],
+   "situations": [
+    [
+     "Home simulator in the garage",
+     10,
+     [
+      [
+       "Uneekor",
+       9
+      ],
+      [
+       "Bushnell",
+       5
+      ],
+      [
+       "Foresight",
+       5
+      ]
+     ]
+    ],
+    [
+     "Driving range practice, $600 max",
+     10,
+     [
+      [
+       "Garmin",
+       7
+      ],
+      [
+       "Voice Caddie",
+       6
+      ],
+      [
+       "Rapsodo",
+       5
+      ]
+     ]
+    ],
+    [
+     "Small room, little space behind the ball",
+     10,
+     [
+      [
+       "Uneekor",
+       7
+      ],
+      [
+       "Bushnell",
+       5
+      ],
+      [
+       "SkyTrak",
+       5
+      ]
+     ]
+    ],
+    [
+     "Measured, not estimated, spin on irons",
+     10,
+     [
+      [
+       "Foresight",
+       10
+      ],
+      [
+       "Uneekor",
+       5
+      ],
+      [
+       "FlightScope",
+       3
+      ]
+     ]
+    ],
+    [
+     "Club data: club path and face angle",
+     10,
+     [
+      [
+       "FlightScope",
+       8
+      ],
+      [
+       "Foresight",
+       7
+      ],
+      [
+       "Uneekor",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "uneekor.com",
+    "foresightsports.com",
+    "garmin.com"
+   ]
+  },
+  {
+   "ad": "Electric skateboards",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-11",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.88,
+     "under3": 19,
+     "n": 25,
+     "searches": 3.08
+    },
+    "Gemini": {
+     "brands": 2.88,
+     "under3": 9,
+     "n": 25,
+     "searches": 2.0
+    }
+   },
+   "brands": [
+    [
+     "Backfire",
+     58,
+     19,
+     10
+    ],
+    [
+     "Meepo",
+     48,
+     10,
+     14
+    ],
+    [
+     "Tynee",
+     24,
+     5,
+     7
+    ],
+    [
+     "Propel",
+     18,
+     4,
+     5
+    ],
+    [
+     "WowGo",
+     18,
+     3,
+     6
+    ]
+   ],
+   "situations": [
+    [
+     "First electric board, little skateboarding",
+     10,
+     [
+      [
+       "Backfire",
+       10
+      ],
+      [
+       "Meepo",
+       4
+      ],
+      [
+       "Tynee",
+       4
+      ]
+     ]
+    ],
+    [
+     "Commute about 8 miles each way",
+     10,
+     [
+      [
+       "Backfire",
+       10
+      ],
+      [
+       "Meepo",
+       5
+      ],
+      [
+       "Tynee",
+       2
+      ]
+     ]
+    ],
+    [
+     "$500 max",
+     10,
+     [
+      [
+       "Meepo",
+       7
+      ],
+      [
+       "WowGo",
+       6
+      ],
+      [
+       "Backfire",
+       4
+      ]
+     ]
+    ],
+    [
+     "Dirt trails and rough roads",
+     10,
+     [
+      [
+       "Propel",
+       9
+      ],
+      [
+       "Acedeck",
+       5
+      ],
+      [
+       "Meepo",
+       3
+      ]
+     ]
+    ],
+    [
+     "Light enough to carry on a bus and into the office",
+     10,
+     [
+      [
+       "Exway",
+       6
+      ],
+      [
+       "Backfire",
+       5
+      ],
+      [
+       "Meepo",
+       5
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "backfireboardsusa.com",
+    "meepoboard.com",
+    "backfireboards.com"
+   ]
+  },
+  {
+   "ad": "3D printer filament",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-11",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.24,
+     "under3": 14,
+     "n": 25,
+     "searches": 3.08
+    },
+    "Gemini": {
+     "brands": 3.16,
+     "under3": 9,
+     "n": 25,
+     "searches": 2.08
+    }
+   },
+   "brands": [
+    [
+     "Polymaker",
+     60,
+     15,
+     15
+    ],
+    [
+     "Bambu Lab",
+     24,
+     3,
+     9
+    ],
+    [
+     "Elegoo",
+     22,
+     6,
+     5
+    ],
+    [
+     "SUNLU",
+     14,
+     0,
+     7
+    ],
+    [
+     "3DXTECH",
+     12,
+     6,
+     0
+    ]
+   ],
+   "situations": [
+    [
+     "First printer, reliable PLA without tuning",
+     10,
+     [
+      [
+       "Polymaker",
+       10
+      ],
+      [
+       "Hatchbox",
+       5
+      ],
+      [
+       "Bambu Lab",
+       4
+      ]
+     ]
+    ],
+    [
+     "PETG for outdoor parts in direct summer sun",
+     10,
+     [
+      [
+       "3DXTECH",
+       5
+      ],
+      [
+       "Polymaker",
+       3
+      ],
+      [
+       "Prusament",
+       3
+      ]
+     ]
+    ],
+    [
+     "TPU for flexible parts like phone cases and gaskets",
+     10,
+     [
+      [
+       "Polymaker",
+       8
+      ],
+      [
+       "Bambu Lab",
+       4
+      ],
+      [
+       "Overture",
+       4
+      ]
+     ]
+    ],
+    [
+     "Bulk PLA, $15 per kg max",
+     10,
+     [
+      [
+       "Elegoo",
+       8
+      ],
+      [
+       "SUNLU",
+       4
+      ],
+      [
+       "Inland",
+       3
+      ]
+     ]
+    ],
+    [
+     "Fast CoreXY printer, high print speeds",
+     10,
+     [
+      [
+       "Polymaker",
+       9
+      ],
+      [
+       "Bambu Lab",
+       4
+      ],
+      [
+       "Creality",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "polymaker.com",
+    "3dxtech.com",
+    "elegoo.com"
+   ]
   }
  ]
 }
