@@ -4,25 +4,26 @@
   {
    "ad": "Travel bags",
    "n": 50,
-   "measured": "2026-10-21",
+   "week": "03",
+   "measured": "2026-11-14",
    "per_situation": true,
    "gemini_search": [
-    12,
+    25,
     25
    ],
-   "below_threshold": true,
+   "below_threshold": false,
    "per_answer": {
     "ChatGPT": {
-     "brands": 1.96,
-     "under3": 15,
+     "brands": 1.92,
+     "under3": 16,
      "n": 25,
-     "searches": 3.64
+     "searches": 4.0
     },
     "Gemini": {
-     "brands": 3.84,
-     "under3": 7,
+     "brands": 2.76,
+     "under3": 10,
      "n": 25,
-     "searches": 0.88
+     "searches": 2.04
     }
    },
    "brands": [
@@ -34,27 +35,27 @@
     ],
     [
      "Osprey",
-     38,
-     10,
-     9
+     34,
+     7,
+     10
     ],
     [
      "Travelpro",
-     28,
-     6,
-     8
-    ],
-    [
-     "American Tourister",
-     12,
-     3,
-     3
+     24,
+     5,
+     7
     ],
     [
      "CabinZero",
      12,
-     2,
-     4
+     4,
+     2
+    ],
+    [
+     "Aer",
+     10,
+     0,
+     5
     ]
    ],
    "situations": [
@@ -64,11 +65,11 @@
      [
       [
        "Osprey",
-       9
+       10
       ],
       [
        "Cotopaxi",
-       6
+       4
       ],
       [
        "Aer",
@@ -86,10 +87,10 @@
       ],
       [
        "Travelpro",
-       8
+       6
       ],
       [
-       "Tumi",
+       "Monos",
        2
       ]
      ]
@@ -100,14 +101,14 @@
      [
       [
        "Osprey",
-       9
+       7
       ],
       [
        "CabinZero",
        6
       ],
       [
-       "Coowoz",
+       "Calpak",
        3
       ]
      ]
@@ -118,15 +119,15 @@
      [
       [
        "American Tourister",
-       6
+       4
       ],
       [
        "SwissGear",
-       5
+       3
       ],
       [
        "Amazon Basics",
-       3
+       2
       ]
      ]
     ],
@@ -140,11 +141,11 @@
       ],
       [
        "Rimowa",
-       6
+       5
       ],
       [
        "Travelpro",
-       2
+       4
       ]
      ]
     ]
@@ -152,12 +153,17 @@
    "sources": [
     "briggs-riley.com",
     "osprey.com",
-    "patagonia.com"
+    "travelpro.com"
+   ],
+   "earlier_measured": [
+    "2026-10-14",
+    "2026-10-21"
    ]
   },
   {
    "ad": "Hair tools",
    "n": 50,
+   "week": "02",
    "measured": "2026-10-21",
    "per_situation": true,
    "gemini_search": [
@@ -312,6 +318,7 @@
   {
    "ad": "Pickleball paddles",
    "n": 50,
+   "week": "02",
    "measured": "2026-10-21",
    "per_situation": false,
    "gemini_search": [
@@ -466,6 +473,7 @@
   {
    "ad": "Water filters",
    "n": 50,
+   "week": "02",
    "measured": "2026-10-21",
    "per_situation": false,
    "gemini_search": [

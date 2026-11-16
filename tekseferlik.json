@@ -314,58 +314,58 @@
   {
    "ad": "Air purifiers",
    "n": 50,
-   "week": "01",
-   "measured": "2026-10-21",
+   "week": "02",
+   "measured": "2026-11-14",
    "per_situation": false,
    "gemini_search": [
-    18,
+    25,
     25
    ],
    "below_threshold": false,
    "per_answer": {
     "ChatGPT": {
      "brands": 1.84,
-     "under3": 16,
+     "under3": 19,
      "n": 25,
-     "searches": 3.04
+     "searches": 3.84
     },
     "Gemini": {
-     "brands": 3.08,
-     "under3": 9,
+     "brands": 2.48,
+     "under3": 10,
      "n": 25,
-     "searches": 1.48
+     "searches": 2.0
     }
    },
    "brands": [
     [
      "Levoit",
      72,
-     16,
-     20
+     15,
+     21
     ],
     [
      "Coway",
-     66,
-     18,
-     15
-    ],
-    [
-     "Winix",
-     34,
-     6,
-     11
+     60,
+     14,
+     16
     ],
     [
      "Blueair",
-     18,
-     4,
-     5
+     34,
+     7,
+     10
+    ],
+    [
+     "Winix",
+     28,
+     7,
+     7
     ],
     [
      "Alen",
-     8,
+     4,
      0,
-     4
+     2
     ]
    ],
    "situations": [
@@ -374,16 +374,16 @@
      10,
      [
       [
-       "Coway",
-       10
-      ],
-      [
        "Levoit",
        8
       ],
       [
-       "Winix",
-       5
+       "Coway",
+       7
+      ],
+      [
+       "Blueair",
+       3
       ]
      ]
     ],
@@ -393,15 +393,15 @@
      [
       [
        "Levoit",
-       10
-      ],
-      [
-       "Coway",
-       6
+       8
       ],
       [
        "Winix",
-       6
+       7
+      ],
+      [
+       "Coway",
+       4
       ]
      ]
     ],
@@ -411,15 +411,15 @@
      [
       [
        "Coway",
-       8
+       9
+      ],
+      [
+       "Blueair",
+       6
       ],
       [
        "Levoit",
-       8
-      ],
-      [
-       "Austin Air",
-       2
+       4
       ]
      ]
     ],
@@ -429,15 +429,15 @@
      [
       [
        "Levoit",
-       8
+       10
       ],
       [
        "Winix",
-       6
+       5
       ],
       [
        "Blueair",
-       5
+       3
       ]
      ]
     ],
@@ -447,23 +447,26 @@
      [
       [
        "Coway",
-       7
+       9
       ],
       [
-       "Alen",
-       4
+       "Levoit",
+       6
       ],
       [
-       "Rabbit Air",
+       "Blueair",
        4
       ]
      ]
     ]
    ],
    "sources": [
+    "levoit.com",
     "cowaymega.com",
-    "epa.gov",
-    "levoit.com"
+    "epa.gov"
+   ],
+   "earlier_measured": [
+    "2026-10-21"
    ]
   },
   {
@@ -624,58 +627,58 @@
   {
    "ad": "Standing desks",
    "n": 50,
-   "week": "01",
-   "measured": "2026-10-21",
+   "week": "02",
+   "measured": "2026-11-14",
    "per_situation": false,
    "gemini_search": [
-    23,
+    25,
     25
    ],
    "below_threshold": false,
    "per_answer": {
     "ChatGPT": {
-     "brands": 2.28,
-     "under3": 11,
+     "brands": 2.08,
+     "under3": 13,
      "n": 25,
-     "searches": 3.6
+     "searches": 3.56
     },
     "Gemini": {
-     "brands": 3.48,
-     "under3": 8,
+     "brands": 2.88,
+     "under3": 10,
      "n": 25,
-     "searches": 2.84
+     "searches": 2.2
     }
    },
    "brands": [
     [
-     "Uplift",
+     "FlexiSpot",
      60,
      14,
      16
     ],
     [
-     "FlexiSpot",
+     "Uplift",
      56,
-     14,
-     14
+     12,
+     16
     ],
     [
      "Deskhaus",
-     40,
-     6,
-     14
+     30,
+     10,
+     5
+    ],
+    [
+     "Ergonofis",
+     12,
+     2,
+     4
     ],
     [
      "iMovR",
-     14,
-     1,
-     6
-    ],
-    [
-     "Branch",
      12,
-     4,
-     2
+     2,
+     4
     ]
    ],
    "situations": [
@@ -685,11 +688,11 @@
      [
       [
        "Uplift",
-       10
+       9
       ],
       [
        "FlexiSpot",
-       8
+       7
       ],
       [
        "Branch",
@@ -702,16 +705,16 @@
      10,
      [
       [
-       "Uplift",
+       "FlexiSpot",
        7
       ],
       [
-       "FlexiSpot",
-       5
+       "Uplift",
+       6
       ],
       [
        "Deskhaus",
-       4
+       3
       ]
      ]
     ],
@@ -721,15 +724,15 @@
      [
       [
        "Deskhaus",
-       9
-      ],
-      [
-       "Uplift",
-       9
+       7
       ],
       [
        "FlexiSpot",
-       6
+       7
+      ],
+      [
+       "Uplift",
+       7
       ]
      ]
     ],
@@ -742,12 +745,12 @@
        9
       ],
       [
-       "FEZIBO",
-       5
+       "IKEA",
+       4
       ],
       [
-       "VIVO",
-       4
+       "ErGear",
+       3
       ]
      ]
     ],
@@ -756,16 +759,16 @@
      10,
      [
       [
-       "Deskhaus",
-       7
-      ],
-      [
        "Ergonofis",
        6
       ],
       [
        "Uplift",
-       4
+       6
+      ],
+      [
+       "Deskhaus",
+       5
       ]
      ]
     ]
@@ -773,7 +776,10 @@
    "sources": [
     "upliftdesk.com",
     "flexispot.com",
-    "vari.com"
+    "desk.haus"
+   ],
+   "earlier_measured": [
+    "2026-10-21"
    ]
   },
   {
