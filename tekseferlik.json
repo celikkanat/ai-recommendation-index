@@ -3414,6 +3414,471 @@
     "3dxtech.com",
     "elegoo.com"
    ]
+  },
+  {
+   "ad": "Golf rangefinders",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-18",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.16,
+     "under3": 13,
+     "n": 25,
+     "searches": 3.48
+    },
+    "Gemini": {
+     "brands": 2.64,
+     "under3": 9,
+     "n": 25,
+     "searches": 1.76
+    }
+   },
+   "brands": [
+    [
+     "Bushnell",
+     62,
+     14,
+     17
+    ],
+    [
+     "Nikon",
+     34,
+     9,
+     8
+    ],
+    [
+     "Garmin",
+     24,
+     4,
+     8
+    ],
+    [
+     "Shot Scope",
+     16,
+     5,
+     3
+    ],
+    [
+     "Voice Caddie",
+     16,
+     4,
+     4
+    ]
+   ],
+   "situations": [
+    [
+     "Slope for casual rounds, switch it off for club tournaments",
+     10,
+     [
+      [
+       "Bushnell",
+       10
+      ],
+      [
+       "Garmin",
+       5
+      ],
+      [
+       "Blue Tees",
+       2
+      ]
+     ]
+    ],
+    [
+     "First laser rangefinder, $250 max",
+     10,
+     [
+      [
+       "Shot Scope",
+       7
+      ],
+      [
+       "Blue Tees",
+       5
+      ],
+      [
+       "GolfBuddy",
+       3
+      ]
+     ]
+    ],
+    [
+     "Age 68, hands not steady, trouble locking onto the flag",
+     10,
+     [
+      [
+       "Nikon",
+       10
+      ],
+      [
+       "Canon",
+       4
+      ],
+      [
+       "Bushnell",
+       3
+      ]
+     ]
+    ],
+    [
+     "Walks and carries, smallest and lightest, fits a pocket",
+     10,
+     [
+      [
+       "Bushnell",
+       8
+      ],
+      [
+       "Voice Caddie",
+       5
+      ],
+      [
+       "NAVEE",
+       4
+      ]
+     ]
+    ],
+    [
+     "Laser to the pin plus GPS to the green, no phone",
+     10,
+     [
+      [
+       "Bushnell",
+       10
+      ],
+      [
+       "Garmin",
+       6
+      ],
+      [
+       "Mileseey",
+       3
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "bushnellgolf.com",
+    "nikonusa.com",
+    "usga.org"
+   ]
+  },
+  {
+   "ad": "Powered bookshelf speakers",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-18",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 2.12,
+     "under3": 15,
+     "n": 25,
+     "searches": 3.08
+    },
+    "Gemini": {
+     "brands": 2.48,
+     "under3": 14,
+     "n": 25,
+     "searches": 1.96
+    }
+   },
+   "brands": [
+    [
+     "Kanto",
+     46,
+     11,
+     12
+    ],
+    [
+     "Edifier",
+     42,
+     10,
+     11
+    ],
+    [
+     "Klipsch",
+     28,
+     5,
+     9
+    ],
+    [
+     "KEF",
+     22,
+     6,
+     5
+    ],
+    [
+     "ELAC",
+     20,
+     5,
+     5
+    ]
+   ],
+   "situations": [
+    [
+     "Small computer desk, plugs in with USB-C",
+     10,
+     [
+      [
+       "Kanto",
+       9
+      ],
+      [
+       "Edifier",
+       6
+      ],
+      [
+       "ADAM Audio",
+       3
+      ]
+     ]
+    ],
+    [
+     "TV over HDMI ARC instead of a soundbar",
+     10,
+     [
+      [
+       "ELAC",
+       6
+      ],
+      [
+       "Kanto",
+       6
+      ],
+      [
+       "Klipsch",
+       6
+      ]
+     ]
+    ],
+    [
+     "Built-in Wi-Fi streaming and multiroom",
+     10,
+     [
+      [
+       "KEF",
+       9
+      ],
+      [
+       "SVS",
+       4
+      ],
+      [
+       "Audio Pro",
+       3
+      ]
+     ]
+    ],
+    [
+     "Turntable without a preamp, needs a phono input",
+     10,
+     [
+      [
+       "Kanto",
+       8
+      ],
+      [
+       "Klipsch",
+       8
+      ],
+      [
+       "ELAC",
+       4
+      ]
+     ]
+    ],
+    [
+     "First real speakers, $200 max for the pair",
+     10,
+     [
+      [
+       "Edifier",
+       10
+      ],
+      [
+       "PreSonus",
+       3
+      ],
+      [
+       "Neumi",
+       1
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "kantoaudio.com",
+    "edifier.com",
+    "kef.com"
+   ]
+  },
+  {
+   "ad": "Turntables",
+   "n": 50,
+   "week": "01",
+   "measured": "2026-11-18",
+   "per_situation": false,
+   "gemini_search": [
+    25,
+    25
+   ],
+   "below_threshold": false,
+   "per_answer": {
+    "ChatGPT": {
+     "brands": 1.84,
+     "under3": 20,
+     "n": 25,
+     "searches": 3.16
+    },
+    "Gemini": {
+     "brands": 2.32,
+     "under3": 14,
+     "n": 25,
+     "searches": 2.0
+    }
+   },
+   "brands": [
+    [
+     "Audio-Technica",
+     84,
+     22,
+     20
+    ],
+    [
+     "Fluance",
+     28,
+     6,
+     8
+    ],
+    [
+     "Reloop",
+     18,
+     5,
+     4
+    ],
+    [
+     "Pioneer DJ",
+     16,
+     2,
+     6
+    ],
+    [
+     "Denon",
+     12,
+     3,
+     3
+    ]
+   ],
+   "situations": [
+    [
+     "First real turntable, needs a built-in preamp",
+     10,
+     [
+      [
+       "Audio-Technica",
+       9
+      ],
+      [
+       "Fluance",
+       6
+      ],
+      [
+       "Pro-Ject",
+       1
+      ]
+     ]
+    ],
+    [
+     "Upgrading from a suitcase player, $500 max",
+     10,
+     [
+      [
+       "Audio-Technica",
+       9
+      ],
+      [
+       "Fluance",
+       8
+      ],
+      [
+       "Rega",
+       2
+      ]
+     ]
+    ],
+    [
+     "Ripping vinyl to a computer over USB",
+     10,
+     [
+      [
+       "Audio-Technica",
+       10
+      ],
+      [
+       "Pioneer DJ",
+       3
+      ],
+      [
+       "Sony",
+       3
+      ]
+     ]
+    ],
+    [
+     "Learning to scratch and DJ, high-torque direct drive",
+     10,
+     [
+      [
+       "Reloop",
+       9
+      ],
+      [
+       "Pioneer DJ",
+       5
+      ],
+      [
+       "Technics",
+       5
+      ]
+     ]
+    ],
+    [
+     "Fully automatic, replaceable cartridge",
+     10,
+     [
+      [
+       "Audio-Technica",
+       10
+      ],
+      [
+       "Denon",
+       4
+      ],
+      [
+       "Pro-Ject",
+       4
+      ]
+     ]
+    ]
+   ],
+   "sources": [
+    "audio-technica.com",
+    "fluance.com",
+    "sony.com"
+   ]
   }
  ]
 }
